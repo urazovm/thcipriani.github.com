@@ -29,6 +29,13 @@ def exercise6_2():
   print '\nFormat split string with {is an}:',muhNameSansColon.format(' is '+'an ')# Tyler Cipriani is an American Hero
   print '\nReplace the letter \'e\' with the word \'bologna-hole\':',muhName.replace('e',' bologna-hole ')
   print '\nStrip \'Hero\' from my string:',muhName.strip('Hero'),'\n\n' #Tyler Cipriani American
+  exercise6_5()
+
+def exercise6_5():
+  str = 'X-DSPAM-Confidence: 0.8475'
+  slc = float(str[(str.find(': ') + 1):].strip())
+  print slc
+
    
 
 
