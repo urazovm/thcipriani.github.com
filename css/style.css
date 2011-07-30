@@ -238,6 +238,15 @@ body {
         float: left;
         display: inline;
         margin-bottom: 100px; }
+        body #container #main .post a:link, body #container #main .post a:visited {
+          color: #e3e3e3;
+          text-decoration: none; }
+        body #container #main .post a:active {
+          color: #bb1c1c;
+          text-decoration: none; }
+        body #container #main .post a:hover {
+          color: #fd841f;
+          text-decoration: none; }
         body #container #main .post h2 {
           float: left;
           display: inline;
