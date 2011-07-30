@@ -182,6 +182,7 @@ body {
       width: 600px;
       color: #e3e3e3;
       position: fixed;
+      background: #2a2b2c url("../images/texture_075.png");
       font-size: 100%; }
       body #container header #descript {
         float: left;
