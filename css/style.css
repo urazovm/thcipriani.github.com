@@ -240,11 +240,11 @@ body {
         margin-bottom: 100px; }
         body #container #main .post p a:link, body #container #main .post p a:visited {
           color: #e3e3e3;
-          background: #fd841f;
+          background: #2a2b2c;
           text-decoration: none; }
         body #container #main .post p a:active {
           color: #bb1c1c;
-          background: #fd841f;
+          background: #2a2b2c;
           text-decoration: none; }
         body #container #main .post p a:hover {
           color: #fd841f;
