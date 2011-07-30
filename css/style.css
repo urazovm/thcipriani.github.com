@@ -162,7 +162,7 @@ svg {
  *
  * #################################################################################################### */
 body {
-  background: #2a2b2c url("../images/texture_075.png");
+  background: #323637 url("../images/texture_075.png");
   color: #f1f1ea;
   font-family: Helvetica, Arial, sans-serif; }
   body p {
@@ -184,7 +184,9 @@ body {
       position: fixed;
       background: #2a2b2c url("../images/texture_075.png");
       opacity: 0.8;
-      font-size: 100%; }
+      font-size: 100%;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35); }
       body #container header #descript {
         float: left;
         width: 50%; }
@@ -216,7 +218,7 @@ body {
           body #container header nav ul li {
             float: left;
             display: inline;
-            margin-left: 10px;
+            margin-right: 10px;
             padding: 5px; }
             body #container header nav ul li a:link, body #container header nav ul li a:visited, body #container header nav ul li a:active {
               display: block;
