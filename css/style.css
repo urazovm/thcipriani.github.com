@@ -211,7 +211,7 @@ body {
         width: 50%;
         float: right;
         display: inline;
-        padding-top: 30px; }
+        padding-top: 35px; }
         body #container header nav ul {
           float: right;
           display: inline;
@@ -230,7 +230,7 @@ body {
     body #container #main {
       clear: both;
       width: 100%;
-      margin-top: 200px;
+      margin-top: 250px;
       float: left;
       display: inline; }
       body #container #main .post {
