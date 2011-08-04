@@ -283,9 +283,10 @@ body {
           border-radius: 8px;
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35); }
   body footer {
+    clear: both;
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 520px;
     min-height: 520px;
+    padding-top: 55px;
     background: #2a2b2c; }
