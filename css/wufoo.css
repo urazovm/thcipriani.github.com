@@ -1,0 +1,54 @@
+/* Title : 
+ * Author : 
+ * URL : http://
+ * Last Updated : 8/8/11 */
+@font-face {
+  font-family: "SnigletRegular";
+  src: url("http://www.tylercipriani.com/css/Sniglet-webfont.eot");
+  src: url("http://www.tylercipriani.com/css/Sniglet-webfont.eot?#iefix") format("eot"), url("http://www.tylercipriani.com/css/Sniglet-webfont.woff") format("woff"), url("http://www.tylercipriani.com/css/Sniglet-webfont.ttf") format("truetype"), url("http://www.tylercipriani.com/css/Sniglet-webfont.svg#webfontGFFODQKC") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+  background: #2a2b2c;
+  color: #f1f1ea;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%; }
+  html body#public {
+    background: #2a2b2c;
+    margin: 0; }
+    html body#public #container {
+      background: #2a2b2c;
+      border: 0;
+      box-shadow: #2a2b2c 0 0 0;
+      width: 100%;
+      margin: 0; }
+      html body#public #container #logo {
+        background: #2a2b2c;
+        height: 0; }
+        html body#public #container #logo a {
+          background: #2a2b2c;
+          min-height: 0;
+          height: 0; }
+      html body#public #container form.wufoo .info {
+        border: 0;
+        margin-left: 0;
+        padding-left: 0; }
+        html body#public #container form.wufoo .info div {
+          color: #83a928;
+          margin-left: 10px;
+          font-size: 120%; }
+        html body#public #container form.wufoo .info h2 {
+          font-size: 500%;
+          font-family: "SnigletRegular";
+          color: #e3e3e3;
+          text-shadow: 5px 7px 0 #f92672; }
+      html body#public #container form.wufoo .field {
+        border-radius: 6px;
+        padding: 18px; }
+      html body#public #container form.wufoo li.focused {
+        background: #2a2b2c; }
+      html body#public #container form.wufoo li.section h3 {
+        border: 0; }
+      html body#public #container form.wufoo label.desc {
+        color: #f92672; }
