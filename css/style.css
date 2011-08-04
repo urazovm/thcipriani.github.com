@@ -271,6 +271,7 @@ body {
             text-decoration: none; }
           body #container #main .post h2 a:hover {
             color: #f92672;
+            text-shadow: 10px 10px 0px black;
             text-decoration: none; }
         body #container #main .post div.date {
           color: #83a928;
