@@ -1,4 +1,4 @@
-/* Title : Muhine
+/* Title : TiLer!
  * Author : Tyler Cipriani
  * URL : http://www.tylercipriani.com
  * Last Updated : 8/8/11 */
@@ -30,6 +30,9 @@ html {
           background: #2a2b2c;
           min-height: 0;
           height: 0; }
+      html body#public #container form.wufoo textarea.textarea {
+        min-width: 95%;
+        max-width: 95%; }
       html body#public #container form.wufoo .info {
         border: 0;
         margin-left: 0;
@@ -52,3 +55,7 @@ html {
         border: 0; }
       html body#public #container form.wufoo label.desc {
         color: #f92672; }
+    html body#public img#bottom {
+      display: none !important; }
+  html a.powertiny {
+    display: none !important; }
