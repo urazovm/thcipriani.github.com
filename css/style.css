@@ -251,14 +251,15 @@ body {
           background: none;
           text-decoration: none; }
         body #container #main .post h2 {
+          line-height: 0.85em;
           float: left;
           display: inline;
           width: 600px;
-          margin-top: -25px;
+          margin-top: -30px;
           font-size: 800%;
           font-family: "Abel", sans-serif;
           color: #2a2b2c;
-          text-shadow: 5px 7px 0 #f92672; }
+          text-shadow: 3px 3px 0px rgba(100, 100, 100, 0.35); }
           body #container #main .post h2 a:link {
             color: #2a2b2c;
             text-decoration: none; }
@@ -269,7 +270,7 @@ body {
             color: #2a2b2c;
             text-decoration: none; }
           body #container #main .post h2 a:hover {
-            color: #bb1c1c;
+            color: #f92672;
             text-decoration: none; }
         body #container #main .post div.date {
           color: #83a928;
