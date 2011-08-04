@@ -254,21 +254,22 @@ body {
           float: left;
           display: inline;
           width: 600px;
-          font-size: 500%;
+          margin-top: -25px;
+          font-size: 800%;
           font-family: "Abel", sans-serif;
-          color: #e3e3e3;
+          color: #2a2b2c;
           text-shadow: 5px 7px 0 #f92672; }
           body #container #main .post h2 a:link {
-            color: #e3e3e3;
+            color: #2a2b2c;
             text-decoration: none; }
           body #container #main .post h2 a:visited {
-            color: #e3e3e3;
+            color: #2a2b2c;
             text-decoration: none; }
           body #container #main .post h2 a:active {
-            color: #bb1c1c;
+            color: #2a2b2c;
             text-decoration: none; }
           body #container #main .post h2 a:hover {
-            color: #e3e3e3;
+            color: #bb1c1c;
             text-decoration: none; }
         body #container #main .post div.date {
           color: #83a928;
