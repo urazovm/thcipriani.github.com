@@ -259,7 +259,7 @@ body {
           font-size: 800%;
           font-family: "Abel", sans-serif;
           color: #2a2b2c;
-          text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(255, 255, 255, 0.35); }
+          text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 1px rgba(255, 255, 255, 0.35); }
           body #container #main .post h2 a:link {
             color: #2a2b2c;
             text-decoration: none; }
