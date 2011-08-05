@@ -237,8 +237,7 @@ body {
       clear: both;
       width: 600px;
       margin: 280px auto 0px;
-      display: block;
-      overflow: hidden; }
+      display: block; }
       body .container .main .post {
         width: 100%;
         float: left;
