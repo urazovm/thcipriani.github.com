@@ -178,6 +178,7 @@ body {
     width: 100%;
     overflow: hidden; }
   body #slider {
+    float: left;
     width: 500%;
     background: #3e3c45 url("../images/texture_075.png");
     border-bottom: solid 1px #363839;
