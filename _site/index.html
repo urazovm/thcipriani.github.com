@@ -7,7 +7,9 @@
   <meta name="description" content="">
   <meta name="author" content="Tyler Cipriani">
 
-  <meta name="viewport" content="width=device-width; initial-scale=1.0;"/>
+  <meta name="viewport" content="width=960, initial-scale=1, maximum-scale=1">
+
+  <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="/css/style.css">
 
@@ -35,44 +37,67 @@
 <!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
 
-  <div id="container">
+  <div id="mask">
 
-    <header>
+    <div id="slider">
 
-      <div id="descript">
+        <header>
 
-        <img src="http://a3.twimg.com/profile_images/29254162/beggscartoon_bigger.jpg" alt="C'est Moi">
+          <div id="descript">
 
-        <h1>Tyler Cipriani</h1>
+            <img src="http://a3.twimg.com/profile_images/29254162/beggscartoon_bigger.jpg" alt="C'est Moi">
 
-        <ul>
+            <h1>Tyler Cipriani</h1>
 
-          <li>DOB: 08/14/86</li>
+            <ul>
 
-          <li>Sex: M</li>
+              <li>DOB: 08/14/86</li>
 
-          <li>Eyes: BLU</li>
+              <li>Sex: M</li>
 
-          <li>Hair: BRO</li>
+              <li>Eyes: BLU</li>
 
-        </ul>
+              <li>Hair: BRO</li>
 
-      </div><!--end descript-->
+            </ul>
 
-      <nav>
+          </div><!--end descript-->
 
-        <ul>
-          <li><a href="http://thcipriani.github.com">Home</a></li>
-          <li><a href="http://twitter.com/thcipriani">Twitter</a></li>
-        </ul>
+          <nav>
 
-      </nav>
+            <ul>
+              <li><a id="home" href="http://thcipriani.github.com">Home</a></li>
+              <li><a href="http://twitter.com/thcipriani">Twitter</a></li>
+              <li><a id="me" href="#">About Me</a></li>
+            </ul>
 
-    </header>
-    
-    <div id="main">
-  
-    
+          </nav>
+
+        </header>
+
+      <div id="slide1">
+
+      <div class="container">
+
+        
+        <div id="main">
+      
+        
+<div class="post">
+
+  <div class="date">
+    July<br>
+    09<br>
+    2011
+  </div><!--end .date-->
+
+
+  <h2><a href="/2011/07/09/html5-combat.html">HTML5 Kombat!</a></h2>
+
+  <p>I&#8217;ve been playing around with the HTML5 canvas element recently and it&#8217;s been eye opening to say the least. One project I threw together over the course of an afternoon was a quick, <a href='http://www.tylercipriani.com/html5gamedev/week3_exercise2.html' title='SubZero a&apos;walkin'>keyboard controlled Sub-Zero sprite</a>.</p>
+
+</div><!--end .post-->
+
 <div class="post">
 
   <div class="date">
@@ -88,21 +113,71 @@
 
 </div><!--end .post-->
 
+<div class="post">
+
+  <div class="date">
+    January<br>
+    24<br>
+    2011
+  </div><!--end .date-->
+
+
+  <h2><a href="/2011/01/24/first-post.html">First Post</a></h2>
+
+  <p>I&#8217;m learning new stuff all this t-iz-n-ime!</p>
+
+</div><!--end .post-->
+
   
-  
-    </div>
+      
+        </div>
     
+
+  </div> <!-- end of #container -->
+
+  </div> <!-- end of #slide1 -->
+
+  <div id="slide2">
+
+  </div>
+
+  </div> <!-- end of #slider -->
+  </div> <!-- end of #mask -->
+
     <footer>
+
       
     </footer>
 
-  </div> <!--! end of #container -->
 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 
   <script type="text/javascript">
 
     $(document).ready(function(){
-  
+
+        $("#me").click(function(){
+
+          $("#slider").animate({
+
+            marginLeft: "-200%"
+
+          }, "slow");
+
+        });
+
+        $("#home").click(function(e){
+
+          $("#slider").animate({
+
+            marginLeft: "0"
+
+          }, "slow");
+
+          e.preventDefault();
+
+        });
+
       
 
     });

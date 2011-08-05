@@ -234,6 +234,11 @@ body {
     background: #3e3c45 url("../images/texture_075.png");
     float: left;
     width: 20%; }
+  body #slide2 {
+    background: #3e3c45 url("../images/texture_075.png");
+    float: left;
+    margin-left: 20%;
+    width: 20%; }
   body .container {
     width: 600px;
     min-width: 600px;
