@@ -1,0 +1,25 @@
+---
+layout: video
+---
+<div class="video">
+
+  <div class="date">
+    {{ page.date | date:"%B" }}<br>
+    {{ page.date | date:"%d" }}<br>
+    {{ page.date | date:"%Y" }}
+  </div><!--end .date-->
+
+  <h2>{{ page.title }}</h2>
+
+    {{ content }}
+
+    <iframe src="http://www.screenr.com/embed/pDxs" width="600" height="366" frameborder="0"></iframe>
+
+</div>
+
+<!--{% if page.previous %}
+  <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
+{% endif %}
+{% if page.next %}
+  <a href="{{ page.next.url }}" title="{{ page.next.title }}">&rarr; Next</a>
+{% endif %}-->
