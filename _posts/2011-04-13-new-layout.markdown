@@ -1,7 +1,6 @@
 ---
 layout: post
 title: New Layout
-unique: New Layout
 ---
 
 So I've been playing with a new layout for the site - 

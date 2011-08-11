@@ -174,6 +174,7 @@ body {
     margin-top: 18px;
     margin-left: 25px;
     margin-right: 25px; }
+<<<<<<< HEAD
     body p .container {
       width: 100%;
       min-width: 600px;
@@ -193,67 +194,90 @@ body {
         border-radius: 8px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35); }
         body p .container header #descript {
+=======
+  body header {
+    width: 600px;
+    color: #e3e3e3;
+    position: fixed;
+    top: 55px;
+    left: 50%;
+    margin-left: -50%;
+    background: #2a2b2c url("../images/texture_075.png");
+    opacity: 0.8;
+    font-size: 100%;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35); }
+    body header #descript {
+      float: left;
+      width: 50%; }
+      body header #descript img {
+        padding: 18px;
+        float: left;
+        display: inline;
+        width: 73px; }
+      body header #descript h1 {
+        float: left;
+        display: inline;
+        padding-top: 18px; }
+      body header #descript ul {
+        float: left;
+        display: inline;
+        width: 50%;
+        list-style-type: none;
+        color: #fd841f;
+        font-size: 65%; }
+    body header nav {
+      width: 50%;
+      float: right;
+      display: inline;
+      padding-top: 40px; }
+      body header nav ul {
+        float: right;
+        display: inline;
+        list-style-type: none; }
+        body header nav ul li {
+>>>>>>> parent of 3708231... margin
           float: left;
-          width: 50%; }
-          body p .container header #descript img {
-            padding: 18px;
-            float: left;
-            display: inline;
-            width: 73px; }
-          body p .container header #descript h1 {
-            float: left;
-            display: inline;
-            padding-top: 18px; }
-          body p .container header #descript ul {
-            float: left;
-            display: inline;
-            width: 50%;
-            list-style-type: none;
-            color: #fd841f;
-            font-size: 65%; }
-        body p .container header nav {
-          width: 50%;
-          float: right;
           display: inline;
-          padding-top: 40px; }
-          body p .container header nav ul {
-            float: right;
-            display: inline;
-            list-style-type: none; }
-            body p .container header nav ul li {
-              float: left;
-              display: inline;
-              margin-right: 10px;
-              padding: 5px; }
-              body p .container header nav ul li a:link, body p .container header nav ul li a:visited, body p .container header nav ul li a:active {
-                display: block;
-                color: #e3e3e3;
-                text-decoration: none; }
-              body p .container header nav ul li a:hover {
-                color: #fd841f; }
-    body p .main {
+          margin-right: 10px;
+          padding: 5px; }
+          body header nav ul li a:link, body header nav ul li a:visited, body header nav ul li a:active {
+            display: block;
+            color: #e3e3e3;
+            text-decoration: none; }
+          body header nav ul li a:hover {
+            color: #fd841f; }
+  body .container {
+    width: 100%;
+    min-width: 600px;
+    margin: 0;
+    overflow: hidden;
+    background: #3e3c45 url("../images/texture_075.png");
+    border-bottom: solid 1px #363839;
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.35); }
+    body .container .main {
       clear: both;
       width: 600px;
       margin: 280px auto 0px;
       display: block; }
-      body p .main .post {
+      body .container .main .post {
         width: 100%;
         float: left;
         display: inline;
         margin-bottom: 100px; }
-        body p .main .post p a:link, body p .main .post p a:visited {
+        body .container .main .post p a:link, body .container .main .post p a:visited {
           color: #83a928;
           background: #2a2b2c;
           text-decoration: none; }
-        body p .main .post p a:active {
+        body .container .main .post p a:active {
           color: #bb1c1c;
           background: #2a2b2c;
           text-decoration: none; }
-        body p .main .post p a:hover {
+        body .container .main .post p a:hover {
           color: #fd841f;
           background: none;
           text-decoration: none; }
-        body p .main .post h2 {
+        body .container .main .post h2 {
           line-height: 0.85em;
           float: left;
           display: inline;
@@ -264,22 +288,22 @@ body {
           font-family: "Abel", sans-serif;
           color: #2a2b2c;
           text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.6), 0px 1px 1px rgba(255, 255, 255, 0.35); }
-          body p .main .post h2 a:link {
+          body .container .main .post h2 a:link {
             color: #2a2b2c;
             text-decoration: none; }
-          body p .main .post h2 a:visited {
+          body .container .main .post h2 a:visited {
             color: #2a2b2c;
             text-decoration: none; }
-          body p .main .post h2 a:active {
+          body .container .main .post h2 a:active {
             color: #2a2b2c;
             text-decoration: none; }
-          body p .main .post h2 a:hover {
+          body .container .main .post h2 a:hover {
             color: #f92672;
             text-shadow: 10px 10px 0px black, 9px 9px 0px black, 8px 8px 0px black, 7px 7px 0px black, 6px 6px 0px black, 5px 5px 0px black, 4px 4px 0px black, 3px 3px 0px black;
             text-decoration: none; }
-        body p .main .post iframe {
+        body .container .main .post iframe {
           margin-top: 1em; }
-        body p .main .post div.date {
+        body .container .main .post div.date {
           color: #83a928;
           background: #292929;
           font-size: 100%;

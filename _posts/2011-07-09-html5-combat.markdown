@@ -1,7 +1,6 @@
 ---
 layout: post
 title: HTML5 Kombat!
-unique: HTML5 Kombat!
 ---
 
 I've been playing around with the HTML5 canvas element recently and it's been eye opening to say the 
