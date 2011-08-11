@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pure HTML5/CSS3 Coverflow
-unique: Pure HTML5/CSS3 Coverflow
+unique: Pure HTML5.CSS3 Coverflow
 ---
 
 <iframe src="http://www.screenr.com/embed/pDxs" width="600" height="366" frameborder="0">t</iframe>
