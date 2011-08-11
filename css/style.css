@@ -198,13 +198,8 @@ body {
           display: inline;
           width: 73px; }
         body header #insideHeader #descript h1 {
-          float: left;
-          display: inline;
           padding-top: 18px; }
         body header #insideHeader #descript ul {
-          float: left;
-          display: inline;
-          width: 50%;
           list-style-type: none;
           color: #fd841f;
           font-size: 65%; }
@@ -298,7 +293,8 @@ body {
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35); }
     body .container #disqus_thread {
       float: left;
-      margin-top: 25px; }
+      margin-top: 25px;
+      width: 600px; }
       body .container #disqus_thread a:link, body .container #disqus_thread a:visited {
         color: #83a928;
         background: #2a2b2c;
