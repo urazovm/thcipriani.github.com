@@ -175,7 +175,7 @@ body {
     margin-left: 25px;
     margin-right: 25px; }
   body header {
-    width: 600px;
+    width: 100%;
     color: #e3e3e3;
     position: fixed;
     top: 55px;
@@ -184,47 +184,50 @@ body {
     background: #2a2b2c url("../images/texture_075.png");
     opacity: 0.8;
     font-size: 100%;
-    border-radius: 8px;
+    /*border-radius: 8px */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35); }
-    body header #descript {
-      float: left;
-      width: 50%; }
-      body header #descript img {
-        padding: 18px;
+    body header #insideHeader {
+      width: 960px;
+      margin: 0 auto; }
+      body header #insideHeader #descript {
         float: left;
-        display: inline;
-        width: 73px; }
-      body header #descript h1 {
-        float: left;
-        display: inline;
-        padding-top: 18px; }
-      body header #descript ul {
-        float: left;
-        display: inline;
-        width: 50%;
-        list-style-type: none;
-        color: #fd841f;
-        font-size: 65%; }
-    body header nav {
-      width: 50%;
-      float: right;
-      display: inline;
-      padding-top: 40px; }
-      body header nav ul {
-        float: right;
-        display: inline;
-        list-style-type: none; }
-        body header nav ul li {
+        width: 50%; }
+        body header #insideHeader #descript img {
+          padding: 18px;
           float: left;
           display: inline;
-          margin-right: 10px;
-          padding: 5px; }
-          body header nav ul li a:link, body header nav ul li a:visited, body header nav ul li a:active {
-            display: block;
-            color: #e3e3e3;
-            text-decoration: none; }
-          body header nav ul li a:hover {
-            color: #fd841f; }
+          width: 73px; }
+        body header #insideHeader #descript h1 {
+          float: left;
+          display: inline;
+          padding-top: 18px; }
+        body header #insideHeader #descript ul {
+          float: left;
+          display: inline;
+          width: 50%;
+          list-style-type: none;
+          color: #fd841f;
+          font-size: 65%; }
+      body header #insideHeader nav {
+        width: 50%;
+        float: right;
+        display: inline;
+        padding-top: 40px; }
+        body header #insideHeader nav ul {
+          float: right;
+          display: inline;
+          list-style-type: none; }
+          body header #insideHeader nav ul li {
+            float: left;
+            display: inline;
+            margin-right: 10px;
+            padding: 5px; }
+            body header #insideHeader nav ul li a:link, body header #insideHeader nav ul li a:visited, body header #insideHeader nav ul li a:active {
+              display: block;
+              color: #e3e3e3;
+              text-decoration: none; }
+            body header #insideHeader nav ul li a:hover {
+              color: #fd841f; }
   body .container {
     width: 100%;
     min-width: 600px;
@@ -293,6 +296,21 @@ body {
           margin-left: -115px;
           border-radius: 8px;
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35); }
+    body .container #disqus_thread {
+      float: left;
+      margin-top: 25px; }
+      body .container #disqus_thread a:link, body .container #disqus_thread a:visited {
+        color: #83a928;
+        background: #2a2b2c;
+        text-decoration: none; }
+      body .container #disqus_thread a:active {
+        color: #bb1c1c;
+        background: #2a2b2c;
+        text-decoration: none; }
+      body .container #disqus_thread a:hover {
+        color: #fd841f;
+        background: none;
+        text-decoration: none; }
   body footer {
     clear: both;
     width: 100%;
