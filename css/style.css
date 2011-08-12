@@ -187,7 +187,7 @@ body {
     /*border-radius: 8px */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35); }
     body header #insideHeader {
-      width: 600px;
+      width: 700px;
       margin: 0 auto; }
       body header #insideHeader #descript {
         float: left;
@@ -225,7 +225,7 @@ body {
               color: #fd841f; }
   body .container {
     width: 100%;
-    min-width: 600px;
+    min-width: 620px;
     margin: 0;
     overflow: hidden;
     background: #3e3c45 url("../images/texture_075.png");
@@ -233,7 +233,7 @@ body {
     box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.35); }
     body .container .main {
       clear: both;
-      width: 600px;
+      width: 620px;
       margin: 280px auto 0px;
       display: block; }
       body .container .main .post {
@@ -257,7 +257,7 @@ body {
           line-height: 0.85em;
           float: left;
           display: inline;
-          width: 600px;
+          width: 620px;
           margin-top: -30px;
           margin-bottom: 20px;
           font-size: 800%;
@@ -294,7 +294,7 @@ body {
     body .container #disqus_thread {
       float: left;
       margin-top: 25px;
-      width: 600px; }
+      width: 620px; }
       body .container #disqus_thread a:link, body .container #disqus_thread a:visited {
         color: #83a928;
         background: #2a2b2c;
