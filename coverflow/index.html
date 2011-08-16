@@ -54,9 +54,80 @@
 $(document).ready(function(){
 
   var $rotator = $("ul.html5coverflow > li");
+  var listNum = $rotator.length;
+  var leftList = Math.floor(listNum/2);
+  var rightList = listNum - (leftList + 1);
 
-  $rotator.each(function(i){
-      $(this).addClass(bg);
+  var objWidth = 150;
+
+  //LEFT SIDE
+
+  for (var i = 0; i < leftList; i++) {
+
+    var start = 100;
+    var left = (i == 0) ? 25 : start * i;
+
+    var zIndex = 999 + i;
+
+    $rotator.eq(i).css({
+      "z-index" : zIndex,
+      "-moz-transform": "translate(" + left + "px, 0px) rotateY(60deg) scale(.95)",
+      "-moz-transition":"all .4s linear",
+      "-ms-transform":"translate(" + left + "px, 0px) rotateY(60deg) scale(.95)",
+      "-ms-transition":"all .4s linear",
+      "-o-transform":"translate(" + left + "px, 0px) rotateY(60deg) scale(.95)",
+      "-o-transition":"all .4s linear",
+      "-webkit-transform":"translate(" + left + "px, 0px) rotateY(60deg) scale(.95)",
+      "-webkit-transition":"all .4s linear",
+      "transform":"translate(" + left + "px, 0px) rotateY(60deg) scale(.95)",
+      "transition":"all .4s linear"
+    });
+  }
+
+  //RIGHT SIDE
+
+  for (var i = 0; i < rightList; i++) {
+
+    var leftWidth = (leftList) * 100;
+
+    var start = 100 + leftWidth;
+    var left = (i == 0) ? 25 + leftWidth + objWidth : start * i + objWidth;
+   
+    var current = leftList + 1 + i;
+
+    var zIndex = 999 - i;
+
+    $rotator.eq(current).css({
+      "z-index" : zIndex,
+      "-moz-transform": "translate(" + left + "px, 0px) rotateY(-60deg) scale(.95)",
+      "-moz-transition":"all .4s linear",
+      "-ms-transform":"translate(" + left + "px, 0px) rotateY(-60deg) scale(.95)",
+      "-ms-transition":"all .4s linear",
+      "-o-transform":"translate(" + left + "px, 0px) rotateY(-60deg) scale(.95)",
+      "-o-transition":"all .4s linear",
+      "-webkit-transform":"translate(" + left + "px, 0px) rotateY(-60deg) scale(.95)",
+      "-webkit-transition":"all .4s linear",
+      "transform":"translate(" + left + "px, 0px) rotateY(-60deg) scale(.95)",
+      "transition":"all .4s linear"
+    });
+  }
+
+  //CENTER
+
+  left = 250;
+
+  $rotator.eq(leftList).css({
+    "z-index" : "1000",
+    "-moz-transform": "translate(" + left + "px, 0px) rotateY(0deg) scale(1)",
+    "-moz-transition":"all .4s linear",
+    "-ms-transform":"translate(" + left + "px, 0px) rotateY(0deg) scale(1)",
+    "-ms-transition":"all .4s linear",
+    "-o-transform":"translate(" + left  + "px, 0px) rotateY(0deg) scale(1)",
+    "-o-transition":"all .4s linear",
+    "-webkit-transform":"translate(" + left  + "px, 0px) rotateY(0deg) scale(1)",
+    "-webkit-transition":"all .4s linear",
+    "transform":"translate(" + left + "px, 0px) rotateY(0deg) scale(1)",
+    "transition":"all .4s linear"
   });
 
 
