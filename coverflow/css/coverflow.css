@@ -1,8 +1,4 @@
-.no-csstransforms3d ul#html5coverflowHTML5{display:none;}
-
-.csstransforms3d #html5coverflowNoHTML5{display:none;}
-
-ul.{list-style-type:none; position:relative; -moz-perspective:900; -o-perspective:900; -ms-perspecitve:900; -webkit-perspective:900; perspective:900;}
+ul.html5coverflow {list-style-type:none; position:relative; -moz-perspective:900; -o-perspective:900; -ms-perspecitve:900; -webkit-perspective:900; perspective:900;}
 
 ul.html5coverflow li{position:absolute;}
 
