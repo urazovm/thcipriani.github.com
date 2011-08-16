@@ -15,3 +15,6 @@ I think the CSS3 effect is far more impressive - frankly, I didn't want the rest
 
 Also, you might want to take the volume down a notch before watching this video. I was sitting near a couple
 servers when I recorded it, and, as such, there is quite a background racket.
+
+You can view the live effect [here] (http://www.customchannels.net/client-showroom/ "Custom Channels Client Showroom") 
+(note: this page uses modernizer to detect css3d transitions and fallsback to flash).
