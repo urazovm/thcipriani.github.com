@@ -185,7 +185,7 @@ body {
     left: 0;
     background: #2a2b2c url("../images/texture_075.png");
     font-size: 100%;
-    box-shadow: 1px 0px 5px rgba(255, 255, 255, 0.25); }
+    box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.25); }
     body header #insideHeader {
       width: 265px;
       margin: 0; }
@@ -222,9 +222,10 @@ body {
               color: #e3e3e3;
               text-decoration: none; }
             body header #insideHeader nav ul li a:hover {
-              color: #fd841f;
-              text-shadow: 0px 1px 1px #cccccc;
-              background: #181919 url("../images/texture_075.png"); }
+              color: #e3e3e3;
+              text-shadow: 0px 1px 1px black;
+              background: #181919 url("../images/texture_075.png");
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35); }
   body .container {
     width: 100%;
     min-width: 620px;
