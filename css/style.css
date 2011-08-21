@@ -205,7 +205,7 @@ body {
           color: #f1f1ea;
           -webkit-transform: rotate(-18deg);
           font-size: 87px;
-          text-shadow: 4px 4px 0px #863027, 3px 3px 0px #863027, 2px 2px 0px #863027, 1px 1px 0px #863027, -1px -1px 0px #863027, 0px -3px 6px rgba(0, 0, 0, 0.25), 0px 5px 6px rgba(0, 0, 0, 0.25);
+          text-shadow: 4px 4px 0px #f92672, 3px 3px 0px #f92672, 2px 2px 0px #f92672, 1px 1px 0px #f92672, -1px -1px 0px #f92672, 0px -3px 6px rgba(0, 0, 0, 0.25), 0px 5px 6px rgba(0, 0, 0, 0.25);
           line-height: 0.8em;
           text-align: center; }
       body header #insideHeader nav {
