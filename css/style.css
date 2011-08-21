@@ -224,7 +224,7 @@ body {
             body header #insideHeader nav ul li a:hover {
               color: #e3e3e3;
               text-shadow: 0px 1px 1px black;
-              background: #181919 url("../images/texture_075.png");
+              background: #222324 url("../images/texture_075.png");
               box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35); }
   body .container {
     width: 100%;
@@ -277,7 +277,7 @@ body {
             text-decoration: none; }
           body .container .main .post h2 a:hover {
             color: #f92672;
-            text-shadow: 10px 10px 0px black, 9px 9px 0px black, 8px 8px 0px black, 7px 7px 0px black, 6px 6px 0px black, 5px 5px 0px black, 4px 4px 0px black, 3px 3px 0px black;
+            text-shadow: 10px 10px 0px #2a2b2c, 9px 9px 0px #2a2b2c, 8px 8px 0px #2a2b2c, 7px 7px 0px #2a2b2c, 6px 6px 0px #2a2b2c, 5px 5px 0px #2a2b2c, 4px 4px 0px #2a2b2c, 3px 3px 0px #2a2b2c;
             text-decoration: none; }
         body .container .main .post iframe {
           margin-top: 1em; }
