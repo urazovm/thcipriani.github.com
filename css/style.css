@@ -217,10 +217,10 @@ body {
           body header #insideHeader nav ul li {
             padding: 10px 55px; }
             body header #insideHeader nav ul li a:link, body header #insideHeader nav ul li a:visited, body header #insideHeader nav ul li a:active {
+              width: 100%;
               display: block;
               color: #e3e3e3;
-              text-decoration: none;
-              background: #3e3c45 url("../images/texture_075.png"); }
+              text-decoration: none; }
             body header #insideHeader nav ul li a:hover {
               color: #fd841f; }
   body .container {
@@ -233,7 +233,7 @@ body {
     box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.35); }
     body .container .main {
       width: 620px;
-      margin: 160px 0px 0px 300px;
+      margin: 160px 0px 0px 420px;
       display: block; }
       body .container .main .post {
         width: 100%;
