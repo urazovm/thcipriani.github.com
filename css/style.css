@@ -214,15 +214,14 @@ body {
         margin-top: 235px; }
         body header #insideHeader nav ul {
           list-style-type: none; }
-          body header #insideHeader nav ul li {
-            padding: 10px 55px; }
-            body header #insideHeader nav ul li a:link, body header #insideHeader nav ul li a:visited, body header #insideHeader nav ul li a:active {
-              width: 100%;
-              display: block;
-              color: #e3e3e3;
-              text-decoration: none; }
-            body header #insideHeader nav ul li a:hover {
-              color: #fd841f; }
+          body header #insideHeader nav ul li a:link, body header #insideHeader nav ul li a:visited, body header #insideHeader nav ul li a:active {
+            padding: 15px;
+            display: block;
+            color: #e3e3e3;
+            text-decoration: none; }
+          body header #insideHeader nav ul li a:hover {
+            color: #fd841f;
+            background: #3e3c45 url("../images/texture_075.png"); }
   body .container {
     width: 100%;
     min-width: 620px;
