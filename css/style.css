@@ -277,8 +277,8 @@ body {
             color: #2a2b2c;
             text-decoration: none; }
           body .container .main .post h2 a:hover {
-            color: #f92672;
-            text-decoration: none; }
+            color: #2a2b2c;
+            text-decoration: underline; }
         body .container .main .post iframe {
           margin-top: 1em; }
         body .container .main .post div.date {
