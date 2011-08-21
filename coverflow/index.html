@@ -60,6 +60,21 @@ $(document).ready(function(){
 
   var objWidth = 150;
 
+  var sides =  {
+      rotation : 60,
+      "z-index" : zIndex,
+      "-moz-transform" : "translate(" + left + "px, -10px) rotateY(" + this.rotation + "deg) scale(.75)",
+      "-moz-transition" : "all .4s linear",
+      "-ms-transform":"translate(" + left + "px, -10px) rotateY(" + this.rotation + "deg) scale(.75)",
+      "-ms-transition":"all .4s linear",
+      "-o-transform":"translate(" + left + "px, -10px) rotateY(" + this.rotation + "deg) scale(.75)",
+      "-o-transition":"all .4s linear",
+      "-webkit-transform":"translate(" + left + "px, -10px) rotateY(" + this.rotation + "deg) scale(.75)",
+      "-webkit-transition":"all .4s linear",
+      "transform":"translate(" + left + "px, -10px) rotateY(" + this.rotation + "deg) scale(.75)",
+      "transition":"all .4s linear"
+    };
+
   //LEFT SIDE
 
   for (var i = 0; i < leftList; i++) {
@@ -67,9 +82,10 @@ $(document).ready(function(){
     var start = 100;
     var left = (i == 0) ? 25 : start * i;
 
-    var zIndex = 999 + i;
+    var zIndex = 1000 + i;
+    var rotation = 60;
 
-    $rotator.eq(i).css({
+    var leftSide = {
       "z-index" : zIndex,
       "-moz-transform": "translate(" + left + "px, -10px) rotateY(60deg) scale(.75)",
       "-moz-transition":"all .4s linear",
@@ -81,7 +97,9 @@ $(document).ready(function(){
       "-webkit-transition":"all .4s linear",
       "transform":"translate(" + left + "px, -10px) rotateY(60deg) scale(.75)",
       "transition":"all .4s linear"
-    });
+    }
+
+    $rotator.eq(i).css(leftSide);
   }
 
   //RIGHT SIDE
@@ -95,9 +113,9 @@ $(document).ready(function(){
    
     var current = leftList + 1 + i;
 
-    var zIndex = 999 - i;
+    var zIndex = 1000 - i;
 
-    $rotator.eq(current).css({
+    rightSide = {
       "z-index" : zIndex,
       "-moz-transform": "translate(" + left + "px, -10px) rotateY(-60deg) scale(.75)",
       "-moz-transition":"all .4s linear",
@@ -109,15 +127,17 @@ $(document).ready(function(){
       "-webkit-transition":"all .4s linear",
       "transform":"translate(" + left + "px, -10px) rotateY(-60deg) scale(.75)",
       "transition":"all .4s linear"
-    });
+    };
+
+    $rotator.eq(current).css(rightSide);
   }
 
   //CENTER
 
   left = 250;
 
-  $rotator.eq(leftList).css({
-    "z-index" : "1000",
+  center = {
+    "z-index" : "5000",
     "-moz-transform": "translate(" + left + "px, 15px) rotateY(0deg) scale(1)",
     "-moz-transition":"all .4s linear",
     "-ms-transform":"translate(" + left + "px, 15px) rotateY(0deg) scale(1)",
@@ -128,12 +148,20 @@ $(document).ready(function(){
     "-webkit-transition":"all .4s linear",
     "transform":"translate(" + left + "px, 15px) rotateY(0deg) scale(1)",
     "transition":"all .4s linear"
-  });
+  };
+
+  $rotator.eq(leftList).css(center);
 
 
-  //$rotator.click(clicked);
+  $rotator.click(clicked);
       
-  /*function clicked(){
+  function clicked(){
+
+    console.log($rotator.index($(this)));
+
+  }
+
+  /*
 
       if ($(this).prev().prev().length != 0)
       {
