@@ -200,7 +200,7 @@ body {
         body header #insideHeader #descript h1 {
           font-family: "Lobster", cursive;
           position: absolute;
-          top: -40px;
+          top: 25px;
           left: -10px;
           color: #f1f1ea;
           -webkit-transform: rotate(-18deg);
@@ -211,15 +211,16 @@ body {
       body header #insideHeader nav {
         width: 100%;
         float: left;
-        padding-top: 40px; }
+        margin-top: 235px; }
         body header #insideHeader nav ul {
           list-style-type: none; }
           body header #insideHeader nav ul li {
-            padding: 5px 10px; }
+            padding: 10px 55px; }
             body header #insideHeader nav ul li a:link, body header #insideHeader nav ul li a:visited, body header #insideHeader nav ul li a:active {
               display: block;
               color: #e3e3e3;
-              text-decoration: none; }
+              text-decoration: none;
+              background: #3e3c45 url("../images/texture_075.png"); }
             body header #insideHeader nav ul li a:hover {
               color: #fd841f; }
   body .container {
@@ -232,7 +233,7 @@ body {
     box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.35); }
     body .container .main {
       width: 620px;
-      margin: 80px 300px 0px 0px;
+      margin: 160px 0px 0px 300px;
       display: block; }
       body .container .main .post {
         width: 100%;
