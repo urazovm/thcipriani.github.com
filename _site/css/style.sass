@@ -156,9 +156,9 @@ svg
   overflow: hidden
 
 @font-face
-  font-family: 'SnigletRegular'
-  src: url('Sniglet-webfont.eot')
-  src: url('Sniglet-webfont.eot?#iefix') format('eot'), url('Sniglet-webfont.woff') format('woff'), url('Sniglet-webfont.ttf') format('truetype'), url('Sniglet-webfont.svg#webfontGFFODQKC') format('svg')
+  font-family: 'Lobster13Regular'
+  src: url('Lobster_1.3-webfont.eot')
+  src: url('Lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'), url('Lobster_1.3-webfont.woff') format('woff'), url('Lobster_1.3-webfont.ttf') format('truetype'), url('Lobster_1.3-webfont.svg#Lobster13Regular') format('svg')
   font-weight: normal
   font-style: normal
 
@@ -171,91 +171,90 @@ svg
 body
   background: #2A2B2C
   color: #F1F1EA
-  font-family: Helvetica, Arial, sans-serif
+  font-family: Lucida Grande, Arial, Verdana, sans-serif
 
   p
     float: left
     clear: both
     display: inline
     width: 550px
-    font-size: 120%
+    font-size: 100%
+    line-height: 1.6em
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75)
     margin:
       top: 18px
       left: 25px
       right: 25px
 
   header
-    width: 600px
+    width: 265px
+    height: 100%
+    min-height: 100%
     color: #e3e3e3
     position: fixed
-    top: 55px
-    left: 100%
-    margin-left: -75%
+    top: 0
+    left: 0
     background: #2a2b2c url('../images/texture_075.png')
-    opacity: .8
     font:
       size: 100%
-    border-radius: 8px
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35)
+    box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.25)
 
-    #descript
-      float: left
-      width: 50%
-
-      img
-        padding: 18px
+    #insideHeader
+      width: 265px
+      margin: 0
+    
+      #descript
         float: left
-        display: inline
-        width: 73px
+        width: 100%
 
-      h1
-        float: left
-        display: inline
-        padding:
-          top: 18px
-
-      ul
-        float: left
-        display: inline
-        width: 50%
-        list-style-type: none
-        color: #FD841F
-        font:
-          size: 65%
-
-    nav
-      width: 50%
-      float: right
-      display: inline
-      padding:
-        top: 40px
-
-      ul
-        float: right
-        display: inline
-        list-style-type: none
-
-        li
+        img
+          padding: 18px
           float: left
           display: inline
-          margin:
-            right: 10px
-          padding: 5px
+          width: 73px
 
-          a
-            &:link,
-            &:visited,
-            &:active
-              display: block
-              color: #E3E3E3
-              text-decoration: none
+        h1
+          font-family: 'Lobster13Regular', cursive
+          position: absolute 
+          top: 25px
+          left: 10px
+          color: #f1f1ea
+          -webkit-transform: rotate(-18deg)
+          font-size: 87px
+          text-shadow: 4px 4px 0px #F92672, 3px 3px 0px #F92672, 2px 2px 0px #F92672, 1px 1px 0px #F92672, -1px -1px 0px #F92672, 0px -3px 6px rgba(0, 0, 0, 0.25), 0px 5px 6px rgba(0, 0, 0, 0.25)
+          line-height: .8em
+          text-align: center
 
-          a:hover
-            color: #FD841F
+      nav
+        width: 100%
+        float: left
+        margin:
+          top: 235px
+
+        ul
+          list-style-type: none
+
+          li
+            text-align: center
+
+            a
+              &:link,
+              &:visited,
+              &:active
+                padding: 15px
+                display: block
+                color: #E3E3E3
+                text-decoration: none
+
+            a:hover
+              color: #e3e3e3
+              text-shadow: 0px 1px 1px #000
+              background: #222324 url('../images/texture_075.png')
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35)
 
   .container 
     width: 100%
-    min-width: 600px
+    min-width: 620px
     margin: 0
     overflow: hidden
     background: #3E3C45 url('../images/texture_075.png')
@@ -263,9 +262,8 @@ body
     box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.35)
       
     .main
-      clear: both
-      width: 600px
-      margin: 280px auto 0px
+      width: 620px
+      margin: 160px 0px 0px 420px
       display: block
 
       .post
@@ -298,8 +296,9 @@ body
           line-height: .85em
           float: left
           display: inline
-          width: 600px
+          width: 620px
           margin-top: -30px
+          margin-bottom: 20px
           font:
             size: 800%
             family: 'Abel', sans-serif
@@ -319,16 +318,19 @@ body
             text-decoration: none
     
           a:hover
-            color: #F92672
-            text-shadow: 10px 10px 0px rgba(0, 0, 0, 1), 9px 9px 0px rgba(0, 0, 0, 1), 8px 8px 0px rgba(0, 0, 0, 1), 7px 7px 0px rgba(0, 0, 0, 1), 6px 6px 0px rgba(0, 0, 0, 1), 5px 5px 0px rgba(0, 0, 0, 1), 4px 4px 0px rgba(0, 0, 0, 1), 3px 3px 0px rgba(0, 0, 0, 1) 
+            color: #2A2B2C
             text-decoration: none
     
+        iframe
+          margin-top: 1em
+
         div.date
           color: #83A928
           background: #292929
           font:
             size: 100%
             weight: 900
+          line-height: 1.6em
           text-align: center
           width: 80px 
           padding: 6px
@@ -337,6 +339,28 @@ body
             left: -115px
           border-radius: 8px
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(255, 255, 255, 0.35)
+
+    #disqus_thread
+      float: left
+      margin-top: 25px
+      width: 620px
+      
+      a
+        &:link,
+        &:visited 
+          color: #83A928
+          background: #2a2b2c
+          text-decoration: none
+      
+      a:active
+        color: #BB1C1C
+        background: #2a2b2c
+        text-decoration: none
+      
+      a:hover
+        color: #FD841F
+        background: none
+        text-decoration: none
 
   footer
     clear: both

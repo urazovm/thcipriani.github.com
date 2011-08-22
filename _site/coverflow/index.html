@@ -1,0 +1,198 @@
+<!doctype html>  
+
+<html lang="en">
+
+<head>
+
+
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+  <title>html5 coverflow</title>
+
+
+  <meta name="author" content="Tyler Cipriani">
+
+  <meta name="viewport" content="width=960">
+
+  <link rel="stylesheet" href="css/coverflow.css">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+</head>
+
+
+<body>
+
+
+  <div id="container">
+
+
+      <ul class="html5coverflow">
+
+
+        <li><img src="img/floyds_cover.jpg" alt="Floyd's 99"></li>
+
+        <li><img src="img/wholefoods_cover.jpg" alt="Whole Foods"></li>
+
+        <li><img src="img/chipotle_cover.jpg" alt="Chipotle"></li>
+
+        <li><img src="img/bonnaroo_cover.jpg" alt="Bonnaroo"></li>
+
+        <li><img src="img/grin_cover.jpg" alt="Soul Daddy - America's Next Great Restaurant"></li>
+
+  
+      </ul>
+
+
+	</div> <!-- end of #container -->
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+  var $rotator = $("ul.html5coverflow > li");
+  var listNum = $rotator.length;
+  var leftList = Math.floor(listNum/2);
+  var rightList = listNum - (leftList + 1);
+
+  var objWidth = 150;
+
+  var sides =  {
+      rotation : 60,
+      "z-index" : zIndex,
+      "-moz-transform" : "translate(" + left + "px, -10px) rotateY(" + this.rotation + "deg) scale(.75)",
+      "-moz-transition" : "all .4s linear",
+      "-ms-transform":"translate(" + left + "px, -10px) rotateY(" + this.rotation + "deg) scale(.75)",
+      "-ms-transition":"all .4s linear",
+      "-o-transform":"translate(" + left + "px, -10px) rotateY(" + this.rotation + "deg) scale(.75)",
+      "-o-transition":"all .4s linear",
+      "-webkit-transform":"translate(" + left + "px, -10px) rotateY(" + this.rotation + "deg) scale(.75)",
+      "-webkit-transition":"all .4s linear",
+      "transform":"translate(" + left + "px, -10px) rotateY(" + this.rotation + "deg) scale(.75)",
+      "transition":"all .4s linear"
+    };
+
+  //LEFT SIDE
+
+  for (var i = 0; i < leftList; i++) {
+
+    var start = 100;
+    var left = (i == 0) ? 25 : start * i;
+
+    var zIndex = 1000 + i;
+    var rotation = 60;
+
+    var leftSide = {
+      "z-index" : zIndex,
+      "-moz-transform": "translate(" + left + "px, -10px) rotateY(60deg) scale(.75)",
+      "-moz-transition":"all .4s linear",
+      "-ms-transform":"translate(" + left + "px, -10px) rotateY(60deg) scale(.75)",
+      "-ms-transition":"all .4s linear",
+      "-o-transform":"translate(" + left + "px, -10px) rotateY(60deg) scale(.75)",
+      "-o-transition":"all .4s linear",
+      "-webkit-transform":"translate(" + left + "px, -10px) rotateY(60deg) scale(.75)",
+      "-webkit-transition":"all .4s linear",
+      "transform":"translate(" + left + "px, -10px) rotateY(60deg) scale(.75)",
+      "transition":"all .4s linear"
+    }
+
+    $rotator.eq(i).css(leftSide);
+  }
+
+  //RIGHT SIDE
+
+  for (var i = 0; i < rightList; i++) {
+
+    var leftWidth = (leftList) * 100;
+
+    var start = 100 + leftWidth;
+    var left = (i == 0) ? 25 + leftWidth + objWidth : start * i + objWidth;
+   
+    var current = leftList + 1 + i;
+
+    var zIndex = 1000 - i;
+
+    rightSide = {
+      "z-index" : zIndex,
+      "-moz-transform": "translate(" + left + "px, -10px) rotateY(-60deg) scale(.75)",
+      "-moz-transition":"all .4s linear",
+      "-ms-transform":"translate(" + left + "px, -10px) rotateY(-60deg) scale(.75)",
+      "-ms-transition":"all .4s linear",
+      "-o-transform":"translate(" + left + "px, -10px) rotateY(-60deg) scale(.75)",
+      "-o-transition":"all .4s linear",
+      "-webkit-transform":"translate(" + left + "px, -10px) rotateY(-60deg) scale(.75)",
+      "-webkit-transition":"all .4s linear",
+      "transform":"translate(" + left + "px, -10px) rotateY(-60deg) scale(.75)",
+      "transition":"all .4s linear"
+    };
+
+    $rotator.eq(current).css(rightSide);
+  }
+
+  //CENTER
+
+  left = 250;
+
+  center = {
+    "z-index" : "5000",
+    "-moz-transform": "translate(" + left + "px, 15px) rotateY(0deg) scale(1)",
+    "-moz-transition":"all .4s linear",
+    "-ms-transform":"translate(" + left + "px, 15px) rotateY(0deg) scale(1)",
+    "-ms-transition":"all .4s linear",
+    "-o-transform":"translate(" + left  + "px, 15px) rotateY(0deg) scale(1)",
+    "-o-transition":"all .4s linear",
+    "-webkit-transform":"translate(" + left  + "px, 15px) rotateY(0deg) scale(1)",
+    "-webkit-transition":"all .4s linear",
+    "transform":"translate(" + left + "px, 15px) rotateY(0deg) scale(1)",
+    "transition":"all .4s linear"
+  };
+
+  $rotator.eq(leftList).css(center);
+
+
+  $rotator.click(clicked);
+      
+  function clicked(){
+
+    console.log($rotator.index($(this)));
+
+  }
+
+  /*
+
+      if ($(this).prev().prev().length != 0)
+      {
+      var $first = $(this).prev().prev();
+      } else {
+          switch ($rotator.index($(this))){
+              case 0:
+                  var $first = $rotator.eq(3)
+                  break;
+              case 1:
+                  var $first = $rotator.eq(4)
+                  break;
+          }
+      }
+      var i = $rotator.index($first);
+      for (var c=0; c<5; c++)
+      {
+          if ($rotator.eq(i).next().length == 0)
+          {
+              $rotator.eq(i).removeClass();
+              $rotator.eq(i).addClass(arr[c]);
+              i=0;
+           } else {
+              $rotator.eq(i).removeClass();
+              $rotator.eq(i).addClass(arr[c]);
+              i++   
+           }
+      }
+  }*/
+
+});
+</script>
+
+<?php get_footer();?>
