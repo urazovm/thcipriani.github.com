@@ -4,7 +4,7 @@ title: Pure HTML5/CSS3 Coverflow
 unique: Pure HTML5.CSS3 Coverflow
 ---
 
-<iframe src="http://www.screenr.com/embed/pDxs" width="600" height="366" frameborder="0">t</iframe>
+<iframe src="http://www.screenr.com/embed/pDxs" width="600" height="366" frameborder="0"></iframe>
 
 I've been wanting to post this up for a while; however, I needed to find a Mac on which I could 
 record this screencast. It seems that currently the only browser that fully supports CSS 3d transitions 
