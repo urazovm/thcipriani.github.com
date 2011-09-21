@@ -3,17 +3,16 @@
 <head>
   <meta charset="utf-8">
 
-  <title>{{ page.title }}</title>
+  <title>Inspiring Apps Logo</title>
   <meta name="description" content="">
   <meta name="author" content="Tyler Cipriani">
 
-  <meta name="viewport" content="width=960">
-  <meta name="google-site-verification" content="Va4knYOhEpEQ13T5jJrOOxdPGh_b0Lhiq542XEc11gI" />
-
+  <meta name="viewport" content="width=960, initial-scale=1, maximum-scale=1">
 
   <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/inspiring.css">
 
   <!--[if IE]>
   <script type="text/javascript">
@@ -42,19 +41,20 @@
         <header>
 
           <div id="insideHeader">
+
             <div id="descript">
 
               <!--<img src="http://a3.twimg.com/profile_images/29254162/beggscartoon_bigger.jpg" alt="C'est Moi">-->
 
               <h1>Tyler<br>Cipriani</h1>
 
-            </div><!--end descript-->
+              </div><!--end descript-->
 
             <nav>
 
               <ul>
-                <li><a id="home" href="index.html">Home</a></li>
-                <li><a id="me" href="about.html">About Me</a></li>
+                <li><a id="home" href="http://www.tylercipriani.com">Home</a></li>
+                <li><a id="me" href="http://www.tylercipriani.com/about.html">About Me</a></li>
                 <li><a href="https://github.com/thcipriani">muh GitHub</a></li>
               </ul>
 
@@ -64,15 +64,29 @@
 
         </header>
 
-      <div class="container">
+    <div class="container">
 
+      <div class="main">
+
+        <article class="post">
+
+          <h2>Code Sample, eh&hellip;?</h2>
+
+          <div class="clear"></div>
         
-        <div class="main">
-      
-        {{ content }}  
-      
-        </div>
-    
+          <section class="logo">
+
+            <div id="main_street"></div>
+            <div id="blue_dot"></div>
+            <div id="black_dot"></div>
+            <div id="green_dot"></div>
+
+          </section>
+
+
+        </article> <!-- end of .post-->
+
+      </div> <!-- end of .main -->
 
   </div> <!-- end of .container -->
 
@@ -83,7 +97,5 @@
     </footer>
 
     
-{% include ga.html %}
-
 </body>
 </html>
