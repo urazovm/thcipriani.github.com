@@ -147,10 +147,11 @@
 
 #green_dot:before {
   content: "y";
+  font-family: verdana, sans-serif;
   /* Content = y? That's right, stay tuned! */
   font-size: 400px;
   position: absolute;
-  top: -60px;
+  top: -65px;
   left: -150px;
   -webkit-transform: rotate(-100deg);
   -moz-transform: rotate(-100deg);
