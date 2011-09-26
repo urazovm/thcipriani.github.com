@@ -177,7 +177,7 @@ html {
         html body #container #main #subway {
           height: 400px;
           background: url(../images/subway_bg.png);
-          *background: url(../images/ie6_map.png) 0 0 no-repeat;
+          _background: url(../images/ie6_map.png) 0 0 no-repeat;
           border: 5px solid #e5e5e5;
           position: relative;
           margin-bottom: 28px; }
@@ -188,7 +188,7 @@ html {
             background: url("../images/a_line.png") 0 0 no-repeat;
             width: 100%;
             height: 100%;
-            *display: none; }
+            _display: none; }
           html body #container #main #subway #e_line {
             position: absolute;
             top: 15px;
@@ -196,7 +196,7 @@ html {
             background: url("../images/e_line.png") 0 0 no-repeat;
             width: 100%;
             height: 100%;
-            *display: none; }
+            _display: none; }
           html body #container #main #subway #w_line {
             position: absolute;
             top: 15px;
@@ -204,7 +204,7 @@ html {
             background: url("../images/w_line.png") 0 0 no-repeat;
             width: 100%;
             height: 100%;
-            *display: none; }
+            _display: none; }
         html body #container #main #chart {
           width: 100%; }
           html body #container #main #chart #work_experience {

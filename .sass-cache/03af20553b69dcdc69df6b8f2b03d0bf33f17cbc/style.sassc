@@ -1,5 +1,5 @@
 3.1.7 (Brainy Betty)
-e44fbcc7d419ffef6b1627bcde2459e3b365e2f3
+eacc8c55a4b1aa3fe7644e4f731afdeb28cd41ce
 o:Sass::Tree::RootNode	:@has_childrenT:@template"Ó!@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:700)
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans)
 
@@ -196,20 +196,20 @@ html
         #subway
           height: 400px
           background: url(../images/subway_bg.png)
-          *background: url(../images/ie6_map.png) 0 0 no-repeat
+          _background: url(../images/ie6_map.png) 0 0 no-repeat
           border: 5px solid #e5e5e5
           position: relative
           margin: 
             bottom: 28px
           #a_line
             +line("../images/a_line.png")
-            *display: none
+            _display: none
           #e_line
             +line("../images/e_line.png")
-            *display: none
+            _display: none
           #w_line
             +line("../images/w_line.png")
-            *display: none
+            _display: none
         #chart
           width: 100%
           #work_experience
@@ -947,7 +947,7 @@ width;
 @	;iÂ;iÂ;iÂ;iÂ;[o;4;["height;
 @	;o;;;<[ ;i;iÃ;=["px;@;>"
 400px;iÃ;[ ;8i ;@;9;:o;4;["background;
-@	;o;5	;"!url(../images/subway_bg.png);iÄ;@;6;7;iÄ;[ ;8i ;@;9;:o;4;["*background;
+@	;o;5	;"!url(../images/subway_bg.png);iÄ;@;6;7;iÄ;[ ;8i ;@;9;:o;4;["_background;
 @	;o;?	;[	o;5	;"url(../images/ie6_map.png);iÅ;@;6;7o;;;<@x;i ;iÅ;=[ ;@;>"0o;;;<@x;i ;iÅ;=[ ;@;>"0o;5	;"no-repeat;iÅ;@;6;7;iÅ;B;C;@;iÅ;[ ;8i ;@;9;:o;4;["border;
 @	;o;?	;[o;;;<[ ;i
 ;iÆ;=["px;@;>"5pxo;5	;"
@@ -959,19 +959,19 @@ solid;iÆ;@;6;7o;	;0;iÆ;{	;iå;iå;i;iå;@;iÆ;B;C;@;iÆ;[ ;
 @	;L[o;M;L[o;N;
 @	;L[o;^;["a_line;
 @	;iÊ;iÊ;iÊ;iÊ;[o;];A{ ;"	line;
-@	;[o;5	;"../images/a_line.png;iË;@;6;Y;iË;[ ;@o;4;["*display;
+@	;[o;5	;"../images/a_line.png;iË;@;6;Y;iË;[ ;@o;4;["_display;
 @	;o;5	;"	none;iÌ;@;6;7;iÌ;[ ;8i ;@;9;:;8i ;@o;H;T;I["#e_line;
 @	;Jo;K;
 @	;L[o;M;L[o;N;
 @	;L[o;^;["e_line;
 @	;iÍ;iÍ;iÍ;iÍ;[o;];A{ ;"	line;
-@	;[o;5	;"../images/e_line.png;iÎ;@;6;Y;iÎ;[ ;@o;4;["*display;
+@	;[o;5	;"../images/e_line.png;iÎ;@;6;Y;iÎ;[ ;@o;4;["_display;
 @	;o;5	;"	none;iÏ;@;6;7;iÏ;[ ;8i ;@;9;:;8i ;@o;H;T;I["#w_line;
 @	;Jo;K;
 @	;L[o;M;L[o;N;
 @	;L[o;^;["w_line;
 @	;iÐ;iÐ;iÐ;iÐ;[o;];A{ ;"	line;
-@	;[o;5	;"../images/w_line.png;iÑ;@;6;Y;iÑ;[ ;@o;4;["*display;
+@	;[o;5	;"../images/w_line.png;iÑ;@;6;Y;iÑ;[ ;@o;4;["_display;
 @	;o;5	;"	none;iÒ;@;6;7;iÒ;[ ;8i ;@;9;:;8i ;@;8i ;@o;H;T;I["#chart;
 @	;Jo;K;
 @	;L[o;M;L[o;N;
