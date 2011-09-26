@@ -67,34 +67,4 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: bottom; }
  * ==============================
  */
 
-/* Mobile First */
-#container{ width: 380px; margin: 0 auto; }
-
-header{ width: 98%; display: inline; float: left; margin: 0 1%;}
-#main { width: 98%; display: inline; float: left; margin: 0 1%;}
-footer { width: 98%; display: inline; float: left; margin: 0 1%;}
-
-/* iPads */
-@media only screen and (min-width: 480px) {
-  #container{ width: 760px; margin: 0 auto; }
-}
-
-/* Standard */
-@media only screen and (min-width: 768px) {
-  #container{ width: 960px; margin: 0 auto; }
-}
-
-@media print {
-  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
-  a, a:visited { color: #444 !important; text-decoration: underline; }
-  a[href]:after { content: " (" attr(href) ")"; }
-  abbr[title]:after { content: " (" attr(title) ")"; }
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
-  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  thead { display: table-header-group; } /* css-discuss.incutio.com/wiki/Printing_Tables */
-  tr, img { page-break-inside: avoid; }
-  img { max-width: 100% !important; }
-  @page { margin: 0.5cm; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3{ page-break-after: avoid; }
-}
+header{ position: absolute; background: #d0d0d0; color: #f1f1ea; top: 0; left: 0; }
