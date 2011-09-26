@@ -1,5 +1,5 @@
 3.1.7 (Brainy Betty)
-997174172637211d8002d90e65339bbe75995536
+67fcebb4dfb1cd3ae23493c0b387cd2c5bc93cf6
 o:Sass::Tree::RootNode	:@has_childrenT:@template"û $pink: #ec008c
 $green: #69bd45
 $blue: #00aeef
@@ -251,7 +251,7 @@ html
   html
     body
       margin: 0 
-      .container
+      #container
         width: 480px
         padding: 
           top: 10px
@@ -259,7 +259,7 @@ html
         header
           overflow: hidden
           margin: 0 10px
-          .title
+          #title
             float: none
             display: block
           nav
@@ -299,7 +299,7 @@ html
                     color: #F1F1F1
             #believe_to_achieve
               +mobile
-            .Edutopia
+            #Edutopia
               +mobile
         footer
           text-align: center
@@ -365,7 +365,7 @@ html
         +mobile
         h2
           display: block !important
-      .Edutopia
+      #Edutopia
         +mobile
         h2
           display: block !important
@@ -1396,10 +1396,10 @@ right;iô;@;5;6;iô;[ ;7i ;@;8;9o;3;
 ["	body;@
 ;iú;iú;iú;iú;[o;3;
 ["margin;@
-;o;:;;@r;i ;iû;<[ ;@;="0;iû;[ ;7i ;@;8;9o;G;T;H[".container;@
+;o;:;;@r;i ;iû;<[ ;@;="0;iû;[ ;7i ;@;8;9o;G;T;H["#container;@
 ;Io;J;@
 ;K[o;L;K[o;M;@
-;K[o;[;
+;K[o;];
 ["container;@
 ;iü;iü;iü;iü;[o;3;
 ["
@@ -1420,10 +1420,10 @@ width;@
 ["overflow;@
 ;o;4	;"hidden;i;@;5;6;i;[ ;7i ;@;8;9o;3;
 ["margin;@
-;o;>	;[o;:;;@r;i ;i;<[ ;@;="0o;:;;[ ;i;i;<["px;@;="	10px;i;A;B;@;i;[ ;7i ;@;8;9o;G;T;H[".title;@
+;o;>	;[o;:;;@r;i ;i;<[ ;@;="0o;:;;[ ;i;i;<["px;@;="	10px;i;A;B;@;i;[ ;7i ;@;8;9o;G;T;H["#title;@
 ;Io;J;@
 ;K[o;L;K[o;M;@
-;K[o;[;
+;K[o;];
 ["
 title;@
 ;i;i;i;i;[o;3;
@@ -1586,10 +1586,10 @@ color;@
 ["believe_to_achieve;@
 ;i*;i*;i*;i*;[o;\;@{ ;
 "mobile;@
-;[ ;i+;[ ;@;7i ;@o;G;T;H[".Edutopia;@
+;[ ;i+;[ ;@;7i ;@o;G;T;H["#Edutopia;@
 ;Io;J;@
 ;K[o;L;K[o;M;@
-;K[o;[;
+;K[o;];
 ["Edutopia;@
 ;i,;i,;i,;i,;[o;\;@{ ;
 "mobile;@
@@ -1793,10 +1793,10 @@ color;@
 ;il;il;il;il;[o;3;
 ["display;@
 ;o;>	;[o;4	;"
-block;im;@;5;6o;4	;"!important;im;@;5;6;im;A;B;@;im;[ ;7i ;@;8;9;7i ;@;7i ;@o;G;T;H[".Edutopia;@
+block;im;@;5;6o;4	;"!important;im;@;5;6;im;A;B;@;im;[ ;7i ;@;8;9;7i ;@;7i ;@o;G;T;H["#Edutopia;@
 ;Io;J;@
 ;K[o;L;K[o;M;@
-;K[o;[;
+;K[o;];
 ["Edutopia;@
 ;in;in;in;in;[o;\;@{ ;
 "mobile;@

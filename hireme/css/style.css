@@ -242,26 +242,26 @@ html {
 @media only screen and (max-width: 1023px) {
   html body {
     margin: 0; }
-    html body .container {
+    html body #container {
       width: 480px;
       padding-top: 10px;
       margin: 0 auto; }
-      html body .container header {
+      html body #container header {
         overflow: hidden;
         margin: 0 10px; }
-        html body .container header .title {
+        html body #container header #title {
           float: none;
           display: block; }
-        html body .container header nav {
+        html body #container header nav {
           float: none;
           margin-top: 1.5em; }
-          html body .container header nav ul li {
+          html body #container header nav ul li {
             float: none;
             width: 100%;
             height: 50px; }
-            html body .container header nav ul li p {
+            html body #container header nav ul li p {
               margin: 0 0 0 42px; }
-      html body .container #main #subway {
+      html body #container #main #subway {
         -webkit-transform: translate(-250px) rotate(90deg);
         -moz-transform: translate(-250px) rotate(90deg);
         -o-transform: translate(-250px) rotate(90deg);
@@ -269,26 +269,26 @@ html {
         transform: translate(-250px) rotate(90deg);
         width: 950px;
         margin-top: 278px; }
-      html body .container #main #chart {
+      html body #container #main #chart {
         margin: 300px 0 28px 0; }
-        html body .container #main #chart #work_experience {
+        html body #container #main #chart #work_experience {
           width: 100%;
           float: none; }
-        html body .container #main #chart #geek_cred {
+        html body #container #main #chart #geek_cred {
           width: 100%;
           float: none;
           margin-top: 18px; }
-          html body .container #main #chart #geek_cred ol {
+          html body #container #main #chart #geek_cred ol {
             padding: 0 0 0 2em; }
-            html body .container #main #chart #geek_cred ol a:link, html body .container #main #chart #geek_cred ol a:active, html body .container #main #chart #geek_cred ol a:visited {
+            html body #container #main #chart #geek_cred ol a:link, html body #container #main #chart #geek_cred ol a:active, html body #container #main #chart #geek_cred ol a:visited {
               color: #f1f1f1; }
-        html body .container #main #chart #believe_to_achieve {
+        html body #container #main #chart #believe_to_achieve {
           width: 100%;
           float: none; }
-        html body .container #main #chart .Edutopia {
+        html body #container #main #chart #Edutopia {
           width: 100%;
           float: none; }
-      html body .container footer {
+      html body #container footer {
         text-align: center;
         padding: 10px 0; } }
 /* Print styles.
@@ -353,10 +353,10 @@ html {
       float: none; }
       #main #chart #believe_to_achieve h2 {
         display: block !important; }
-    #main #chart .Edutopia {
+    #main #chart #Edutopia {
       width: 100%;
       float: none; }
-      #main #chart .Edutopia h2 {
+      #main #chart #Edutopia h2 {
         display: block !important; }
   #main footer {
     text-align: center; } }
