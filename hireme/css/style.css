@@ -177,7 +177,7 @@ html {
         html body #container #main #subway {
           height: 400px;
           background: url(../images/subway_bg.png);
-          *background: url(../images/ie6_map.png);
+          *background: url(../images/ie6_map.png) 0 0 no-repeat;
           border: 5px solid #e5e5e5;
           position: relative;
           margin-bottom: 28px; }
@@ -227,19 +227,22 @@ html {
                 color: #f1f1f1; }
           html body #container #main #chart #believe_to_achieve {
             width: 320px;
-            float: left; }
+            float: left;
+            color: #444444; }
             html body #container #main #chart #believe_to_achieve h2 {
               display: none; }
           html body #container #main #chart #Edutopia {
             float: left;
-            width: 320px; }
+            width: 320px;
+            color: #444444; }
             html body #container #main #chart #Edutopia h2 {
               display: none; }
       html body #container footer {
         clear: both;
         text-align: right;
         padding: 35px 0 55px;
-        font-size: 65%; }
+        font-size: 65%;
+        color: #444444; }
 
 @media only screen and (max-width: 1023px) {
   html body {
