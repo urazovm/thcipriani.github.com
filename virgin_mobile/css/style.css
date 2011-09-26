@@ -67,4 +67,6 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: bottom; }
  * ==============================
  */
 
+#container{ width: 100%; }
+
 header{ position: fixed; margin: 150px 0;  padding: 18px; background: #000; color: #f8f8f8; top: 0; right: 0; opacity:0.8; filter:alpha(opacity=80);}
