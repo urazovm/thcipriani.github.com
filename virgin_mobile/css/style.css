@@ -67,4 +67,4 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: bottom; }
  * ==============================
  */
 
-header{ position: absolute; background: #d0d0d0; color: #f1f1ea; top: 0; left: 0; }
+header{ position: absolute; padding: 18px; background: #383A3F; color: #f8f8f8; top: 0; left: 0; }
