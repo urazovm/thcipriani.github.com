@@ -30,7 +30,7 @@ Mom
             
                             
 /* SITE */
-Last update: YYYY/MM/DD 
-Standards: HTML5, PHP5, MySQL, CSS2/3
-Components: Modernizr, jQuery, Wordpress
-Built With: Photoshop, Flash, SSH, ViM, Blood, Sweat and Tears
+Created: 2011/09/24
+Last update: 2011/09/26
+Standards: HTML5, CSS3, git, github
+Built With: Adobe® Photoshop®, ViM, Blood, Sweat and Tears
