@@ -1,4 +1,4 @@
-$bg: #f1f1ea url(http://www.tylercipriani.com/images/texture_075.png);
+$bg: #FFC20F url(http://www.tylercipriani.com/images/texture_075.png);
 
 @mixin boxshadow($color, $x, $y, $blur) {
   -webkit-box-shadow: $color $x $y $blur;
@@ -21,9 +21,9 @@ $bg: #f1f1ea url(http://www.tylercipriani.com/images/texture_075.png);
 		background: $bg;
 		
 		h1 {
-			color:#000;
+			color:#F8F7E5;
       font-family: museo-slab, serif;
-      @include textshadow(0, 1px, 2px, #fff);
+      @include textshadow(0, 1px, 2px, #444);
 		}
 
 		h2 {
