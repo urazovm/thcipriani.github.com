@@ -5,14 +5,41 @@
 
   <title>Tyler Cipriani's Great Big Employmetn Slideshow Extravaganza</title>
 
-  <link rel="stylesheet/less" href="css/extravaganza.less" media="screen">
+	<!-- Core and extension CSS files -->
+	<link rel="stylesheet" href="js/deck.js/core/deck.core.css">
+	<link rel="stylesheet" href="js/deck.js/extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="js/deck.js/extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="js/deck.js/extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="js/deck.js/extensions/status/deck.status.css">
+	<link rel="stylesheet" href="js/deck.js/extensions/hash/deck.hash.css">
 
-  <script src="http://lesscss.googlecode.com/files/less-1.0.18.min.js"></script> 
-  <script type="text/javascript" src="http://use.typekit.com/kyl1abf.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" href="css/extravaganza.css" media="screen">
+	
+	<script src="js/modernizr.custom.js"></script>
+
 </head>
-<body>
-  <h1>Stuff</h1>
-   <p>More Stuff - maybe with typekit?</p>
+<body class="deck-container">
+  <section class="slide" id="HireMeDummy">
+    <h1>Stuff.</h1>
+  </section>
+  <section class="slide" id="slide2">
+    <p class="slide">More Stuff - maybe with typekit?</p>
+    <p class="slide">Maybe Not.</p>
+  </section>
+
+  <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../jquery-1.7.min.js"><\/script>')</script>
+
+  <!-- Deck Core and extensions -->
+  <script src="js/deck.js/core/deck.core.js"></script>
+  <script src="js/deck.js/extensions/hash/deck.hash.js"></script>
+  <script src="js/deck.js/extensions/menu/deck.menu.js"></script>
+  <script src="js/deck.js/extensions/goto/deck.goto.js"></script>
+  <script src="js/deck.js/extensions/status/deck.status.js"></script>
+  <script src="js/deck.js/extensions/navigation/deck.navigation.js"></script>
+
+  <!-- Specific to this page -->
+  <script src="js/introduction.js"></script>
+
 </body>
 </html>
