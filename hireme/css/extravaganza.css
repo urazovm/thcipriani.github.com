@@ -9,7 +9,8 @@
       font-family: museo-slab, serif;
       -webkit-text-shadow: 0 1px 2px #444444;
       -moz-text-shadow: 0 1px 2px #444444;
-      text-shadow: 0 1px 2px #444444; }
+      text-shadow: 0 1px 2px #444444;
+      -webkit-mask-image: url(../images/mask_img.png); }
     .deck-container .slide h2 {
       color: #c00;
       border-bottom-color: #ccc; }
