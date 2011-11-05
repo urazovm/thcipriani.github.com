@@ -1,15 +1,29 @@
-$bg: #f1f1ea;
+$bg: #f1f1ea url(http://www.tylercipriani.com/images/texture_075.png);
+
+@mixin boxshadow($color, $x, $y, $blur) {
+  -webkit-box-shadow: $color $x $y $blur;
+  -moz-box-shadow: $color $x $y $blur;
+  box-shadow: $color $x $y $blur;
+}
+
+@mixin textshadow($color, $x, $y, $blur) {
+  -webkit-text-shadow: $color $x $y $blur;
+  -moz-text-shadow: $color $x $y $blur;
+  text-shadow: $color $x $y $blur;
+}
 
 .deck-container {
 	font-family: "Helvetica Neue", sans-serif;
 	font-size:1.25em;
-	background: $bg;
+	background: $bg; 
 	
 	.slide {
 		background: $bg;
 		
 		h1 {
 			color:#000;
+      font-family: museo-slab, serif;
+      @include textshadow(0, 1px, 2px, #fff);
 		}
 
 		h2 {
