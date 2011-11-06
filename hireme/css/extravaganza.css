@@ -5,15 +5,10 @@
   .deck-container .slide {
     background: #ffc20f url(http://www.tylercipriani.com/images/texture_075.png); }
     .deck-container .slide h1 {
-      color: #F8F7E5;
-      font-family: museo-slab, serif;
-      -webkit-text-shadow: 0 1px 2px #444444;
-      -moz-text-shadow: 0 1px 2px #444444;
-      text-shadow: 0 1px 2px #444444;
-      -webkit-mask-image: url(../images/mask_img.png); }
+      color: #000; }
     .deck-container .slide h2 {
-      color: #c00;
-      border-bottom-color: #ccc; }
+      color: #444;
+      border-bottom: 1px; }
     .deck-container .slide h3 {
       color: #888; }
     .deck-container .slide pre {
@@ -58,3 +53,38 @@
     background: #eee; }
   .deck-container.deck-menu .deck-current, .no-touch .deck-container.deck-menu .slide:hover {
     background: #ddf; }
+  .deck-container #title h1 {
+    color: #F8F7E5;
+    -webkit-text-shadow: 5px 5px 0 #444444;
+    -moz-text-shadow: 5px 5px 0 #444444;
+    text-shadow: 5px 5px 0 #444444;
+    -webkit-mask-image: url(../images/mask_img.png);
+    font: 800 4.5em/1.5em futura-pt, sans-serif;
+    text-transform: uppercase;
+    width: 80%;
+    margin: 40px auto 0;
+    position: static;
+    padding: 0;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0); }
+  .deck-container #title p {
+    text-align: center;
+    font: 400 2.4em/1.5em "learning-curve", cursive;
+    color: #444;
+    width: 65%;
+    margin: 0 auto; }
+  .deck-container #title p:last-child {
+    margin-top: 3em;
+    color: #F8F7E5;
+    border-top: 3px solid #F8F7E5;
+    font: 800 1.5em/1.5em futura-pt, sans-serif;
+    -webkit-mask-image: url(../images/mask_img.png);
+    -webkit-text-shadow: 3px 3px 0 #444444;
+    -moz-text-shadow: 3px 3px 0 #444444;
+    text-shadow: 3px 3px 0 #444444;
+    width: 80%;
+    letter-spacing: -0.05em; }
