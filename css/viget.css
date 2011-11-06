@@ -1,12 +1,14 @@
 body .container .main .post h2 { line-height: 1.12em; font-size: 725%; }
 .logo {
   clear: left;
+  background: #351822;
+  background-image: -webkit-gradient(radial,left top,400,right bottom,200,from(#4b2a34),color-stop(80%, #351822),to(#230d14));
   background-image: -webkit-radial-gradient(25% 25%, circle farthest-side, #4b2a34 0%, #351822 80%, #230d14 90%);
   background-image:    -moz-radial-gradient(25% 25%, circle farthest-side, #4b2a34 0%, #351822 80%, #230d14 90%);
   background-image:     -ms-radial-gradient(25% 25%, circle farthest-side, #4b2a34 0%, #351822 80%, #230d14 90%);
   background-image:      -o-radial-gradient(25% 25%, circle farthest-side, #4b2a34 0%, #351822 80%, #230d14 90%);
   background:               radial-gradient(25% 25%, circle farthest-side, #4b2a34 0%, #351822 80%, #230d14 90%);
-  border-radius: 400px;
+  border-radius: 200px;
   width: 400px;
   height: 400px;
   margin: 0 auto;
