@@ -4,8 +4,8 @@
   background: #ffc20f url(../images/extravaganza_bg.jpg);
   width: auto;
   max-width: 1024px;
-  margin: 16px auto 24px auto;
-  height: 560px; }
+  margin: 16px auto 18px auto;
+  height: 600px; }
   .deck-container .slide h1 {
     color: #F8F7E5;
     -webkit-text-shadow: 5px 5px 0 #444444;
@@ -48,7 +48,7 @@
       color: #888; }
   .deck-container .slide img {
     float: left;
-    margin: 5% 0 8% 3.5%;
+    margin: 0 0 8% 3.5%;
     position: relative;
     z-index: 1000; }
   .deck-container .slide ul {
@@ -105,6 +105,13 @@
   .deck-container p {
     font-size: 1.4em;
     line-height: 1.4em; }
+  .deck-container .vmlive img {
+    margin: 0 0 8% 1%; }
+  .deck-container .lig img {
+    margin-left: 8%;
+    margin-top: 8%; }
+  .deck-container .lig .last {
+    margin-top: 0; }
   .deck-container .thanks {
     font: 400 2.5em/1.231em learning-curve, serif;
     text-align: center;

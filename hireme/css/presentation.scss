@@ -18,8 +18,8 @@ $bg: #FFC20F url(../images/extravaganza_bg.jpg);
 	background: $bg; 
   width: auto;
   max-width: 1024px;
-  margin: 16px auto 24px auto;
-  height: 560px;
+  margin: 16px auto 18px auto;
+  height: 600px;
 	
 	.slide {
 		
@@ -77,7 +77,7 @@ $bg: #FFC20F url(../images/extravaganza_bg.jpg);
 
     img { 
       float: left; 
-      margin: 5% 0 8% 3.5%; 
+      margin: 0 0 8% 3.5%; 
       position: relative; 
       z-index: 1000; 
     }
@@ -154,6 +154,7 @@ $bg: #FFC20F url(../images/extravaganza_bg.jpg);
   }
 
   .link { position: absolute; top: 1.4em; right: 0; }
+
   .scratchTitle {
     h3 { text-align: center; }
   }
@@ -161,6 +162,20 @@ $bg: #FFC20F url(../images/extravaganza_bg.jpg);
       font-size: 1.4em;
       line-height: 1.4em;
     }
+  .vmlive {
+    img {
+      margin: 0 0 8% 1%;
+    }
+  }
+  .lig {
+    img {
+      margin-left: 8%;
+      margin-top: 8%;
+    }
+    .last {
+      margin-top: 0;
+    }
+  }
   .thanks {
       font: 400 2.5em/1.231em learning-curve, serif;
       text-align: center;
