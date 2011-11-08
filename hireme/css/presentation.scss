@@ -45,6 +45,7 @@ $bg: #FFC20F url(../images/extravaganza_bg.jpg);
       font: 800 2.5em/1.231em futura-pt, sans-serif;
       text-transform: uppercase;
 			color:#444;
+      clear: left;
 		}
 
 		pre {
@@ -74,9 +75,15 @@ $bg: #FFC20F url(../images/extravaganza_bg.jpg);
 			}
 		}
 
-    img { float: left; margin: 2%; }
+    img { 
+      float: left; 
+      margin: 5% 0 8% 3.5%; 
+      position: relative; 
+      z-index: 1000; 
+    }
 
     ul {
+      clear: left;
       font-size: 1.4em;
     }
 
@@ -146,7 +153,21 @@ $bg: #FFC20F url(../images/extravaganza_bg.jpg);
     }
   }
 
+  .link { position: absolute; top: 1.4em; right: 0; }
   .scratchTitle {
     h3 { text-align: center; }
+  }
+  p { 
+      font-size: 1.4em;
+      line-height: 1.4em;
+    }
+  .thanks {
+      font: 400 2.5em/1.231em learning-curve, serif;
+      text-align: center;
+      -webkit-transform: rotate(-7deg);
+      -moz-transform: rotate(-7deg);
+      -o-transform: rotate(-7deg);
+      -ms-transform: rotate(-7deg);
+      transform: rotate(-7deg);
   }
 }
