@@ -138,7 +138,7 @@ html {
             background-image: url("../images/sprite.png");
             background-position: 0 0;
             background-repeat: no-repeat;
-            margin-right: 15px;
+            margin-right: 5px;
           }
           .icon-envelope { background-position: -56px 0; height: 18px; }
           .jumbotron li a:hover .icon-envelope{ background-position: -56px -26px; }
