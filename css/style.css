@@ -154,6 +154,9 @@ html {
       }
       .vcard { 
         width: 100%;
+        *width: 480px;
+        margin: 0 auto;
+        max-width: 480px;
       }
       .photo { display: block; margin: 0 auto; }
       footer { text-align: center; padding-top: 35px; font-size: .85em; }
@@ -162,7 +165,6 @@ html {
 @media only screen and (min-width: 35em) {
      .container { width: 960px; margin: 0 auto; }
      footer { text-align: right; }
-      .vcard { width: 260px; margin: 0 auto; }
 }
 
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
