@@ -67,20 +67,21 @@ td { vertical-align: top; }
 /* My Styles */
 html { 
   background: #f1f1ea url(../images/bg.jpg) repeat 0 0; 
-  height: 100%;
+  height: 100%; /* keeps body min-height */
 }
   body { 
     font-family: "ff-tisa-web-pro", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
     color: #616161;
     text-shadow: 0 -1px 0 black, 0 1px 0 white;
     width: 100%;
-    height: 100%;
-    /*margin collapse*/
-    padding: 1px 0 0; 
+    height: 100%; /* keeps body min-height */
+    padding: 1px 0 0; /*prevent margin collapse*/
     background: url(../images/Cross_bg.png) repeat 0 0; 
   }
     .container { 
       width: 100%; 
+      min-height: 100%; /* keeps body min-height */
+      *height: 100%;
     }
       header { 
         border-bottom: 1px solid #D7C2CC; 
