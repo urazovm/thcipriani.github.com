@@ -76,6 +76,7 @@ html {
     /*margin collapse*/
     padding: 1px 0 0; 
     background: url(../images/Cross_bg.png) repeat 0 0; 
+    min-height: 100%;
   }
     .container { 
       width: 100%; 
