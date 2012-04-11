@@ -82,6 +82,7 @@ html {
       width: 100%; 
       min-height: 100%; /* keeps body min-height */
       *height: 100%;
+      padding: 1px 0 0; /*prevent margin collapse*/
     }
       header { 
         border-bottom: 1px solid #D7C2CC; 
