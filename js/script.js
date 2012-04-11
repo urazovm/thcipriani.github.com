@@ -13,4 +13,4 @@ $(function(){
     $main.load('vcard.html div.main');
   });
 
-})();
+});
