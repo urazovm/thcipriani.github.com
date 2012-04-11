@@ -74,7 +74,7 @@ html {
     text-shadow: 0 -1px 0 black, 0 1px 0 white;
     width: 100%;
     /*margin collapse*/
-    padding: 1px; 
+    padding: 1px 0 0; 
     background: url(../images/Cross_bg.png) repeat 0 0; 
   }
     .container { 
