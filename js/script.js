@@ -3,6 +3,7 @@
 */
 
 $(function(){
+
   $('a.vcard').on('click',function(e) {
     e.preventDefault();
     var $main = $('div.main');
@@ -10,5 +11,6 @@ $(function(){
     $main.removeClass('jumbotron').addClass('vcard');
 
     $main.load('vcard.html div.main');
-  }
+  });
+
 })();
