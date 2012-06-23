@@ -208,7 +208,7 @@ html {
             _display: none; }
         html body #container #main #chart {
           width: 100%; }
-          html body #container #main #chart section {
+          html body #container #main #chart article {
             margin: 1em 0; }
           html body #container #main #chart #work_experience {
             width: 650px;
