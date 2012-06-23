@@ -38,8 +38,7 @@ html {
 body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #444444;
-  /* http://developer.yahoo.com/yui/fonts/  */
-  font: 13px/1.231 "Droid Sans", "Helvetica Neue", arial, helvetica, clean, sans-serif; }
+  font: 14px/1.5 "Droid Sans", "Helvetica Neue", arial, helvetica, clean, sans-serif; }
 
 h1, h2 {
   margin: 0.5em 0; }
@@ -62,7 +61,7 @@ h2 {
 h3 {
   font-size: 1.2em;
   margin: 5px 0 0 42px;
-  line-height: 1em; }
+  line-height: 1.5em; }
 
 p {
   margin: 5px 0 0 42px;
@@ -156,11 +155,9 @@ html {
       html body #container header {
         margin: 0 10px;
         overflow: hidden; }
-        html body #container header #title {
-          float: left; }
         html body #container header nav {
           float: right;
-          margin-top: 8.5em; }
+          margin-top: -7.5em; }
           html body #container header nav ul li {
             float: left;
             padding-left: 10px; }
@@ -283,8 +280,8 @@ html {
           width: 100%;
           float: none; }
         html body #container #main #chart #geek_cred {
-          width: 100%;
-          float: none;
+          width: auto;
+          clear: left;
           margin-top: 18px; }
           html body #container #main #chart #geek_cred ol {
             padding: 0 0 0 2em; }
