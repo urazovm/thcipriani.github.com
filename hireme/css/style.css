@@ -208,6 +208,7 @@ html {
           html body #container #main #chart article {
             margin: 1em 0; }
           html body #container #main #chart #work_experience {
+            overflow: hidden;
             width: 650px;
             float: left; }
             html body #container #main #chart #work_experience h2 {
