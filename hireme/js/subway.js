@@ -25,11 +25,11 @@ var Subway = function(div, width, height) {
       line2 = self.paper.rect(i * segmentWidth, 0, .5, self.height);
       line.attr({
           'fill': 'none',
-          'stroke': '#cccccc',
+          'stroke': '#cccccc'
         });
       line2.attr({
           'fill': 'none',
-          'stroke': '#cccccc',
+          'stroke': '#cccccc'
         });
     }
   };
