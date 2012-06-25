@@ -99,20 +99,17 @@ img {
 .edu {
   float: left;
   width: 37px;
-  height: 37px;
-  background: url("../images/edu.png") 0 0 no-repeat; }
+  height: 37px; }
 
 .work {
   float: left;
   width: 37px;
-  height: 37px;
-  background: url("../images/work.png") 0 0 no-repeat; }
+  height: 37px; }
 
 .acomplish {
   float: left;
   width: 37px;
-  height: 37px;
-  background: url("../images/accomplishment.png") 0 0 no-repeat; }
+  height: 37px; }
 
 .pink {
   color: #ec008c; }

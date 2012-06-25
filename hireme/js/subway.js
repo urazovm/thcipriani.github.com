@@ -148,5 +148,5 @@ var Subway = function(div, width, height) {
 };
 
 jQuery(function() {
-  var sub = new Subway('subway',955,410);
+  var sub = new Subway('subway',950,410);
 });
