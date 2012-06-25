@@ -81,7 +81,7 @@ var Subway = function(div, width, height) {
     }
    iconBack = self.paper.circle(loc.x, loc.y, self.iconRadius + 4).attr({'fill': '#ffffff', 'stroke': color, 'stroke-width': 3}).toFront();
    icon = self.paper.circle(loc.x, loc.y, self.iconRadius).attr({'fill': color, 'stroke': 'none'}).toFront();
-   letterOnIcon = self.paper.text(loc.x, loc.y, letter).attr({'font':'Helvetica','fill':'#ffffff','font-size':28,'font-weight':'bold'});
+   letterOnIcon = self.paper.text(loc.x, loc.y, letter).attr({'font-family':'Helvetica','fill':'#ffffff','font-size':28,'font-weight':'bold'});
   };
 
   self.path = function(cat, path) {
@@ -125,21 +125,21 @@ var Subway = function(div, width, height) {
       var its = Raphael($(this)[0], 47, 47);
       var icBack = its.circle(20.5, 20.5, 18.5).attr({'fill': '#ffffff', 'stroke': '#00AEEF', 'stroke-width': 3}).toFront();
       var ic = its.circle(20.5, 20.5, 15).attr({'fill': '#00AEEF', 'stroke': 'none'}).toFront();
-      var letter = its.text(20.5, 20.5, 'W').attr({'font':'Helvetica','fill':'#ffffff','font-size':20,'font-weight':'bold'});
+      var letter = its.text(20.5, 20.5, 'W').attr({'font-family':'Helvetica','fill':'#ffffff','font-size':20,'font-weight':'bold'});
     });
 
     $('.edu').each(function(i,icon) {
       var its = Raphael($(this)[0], 47, 47);
       var icBack = its.circle(20.5, 20.5, 18.5).attr({'fill': '#ffffff', 'stroke': '#35A353', 'stroke-width': 3}).toFront();
       var ic = its.circle(20.5, 20.5, 15).attr({'fill': '#35A353', 'stroke': 'none'}).toFront();
-      var letter = its.text(20.5, 20.5, 'E').attr({'font':'Helvetica','fill':'#ffffff','font-size':20,'font-weight':'bold'});
+      var letter = its.text(20.5, 20.5, 'E').attr({'font-family':'Helvetica','fill':'#ffffff','font-size':20,'font-weight':'bold'});
     });
 
     $('.acomplish').each(function(i,icon) {
       var its = Raphael($(this)[0], 47, 47);
       var icBack = its.circle(20.5, 20.5, 18.5).attr({'fill': '#ffffff', 'stroke': '#EC008C', 'stroke-width': 3}).toFront();
       var ic = its.circle(20.5, 20.5, 15).attr({'fill': '#EC008C', 'stroke': 'none'}).toFront();
-      var letter = its.text(20.5, 20.5, 'A').attr({'font':'Helvetica','fill':'#ffffff','font-size':20,'font-weight':'bold'});
+      var letter = its.text(20.5, 20.5, 'A').attr({'font-family':'Helvetica','fill':'#ffffff','font-size':20,'font-weight':'bold'});
     });
 
   };
