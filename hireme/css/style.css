@@ -98,30 +98,18 @@ img {
 
 .edu {
   float: left;
-  overflow: hidden;
-  text-align: left;
-  direction: ltr;
-  text-indent: -9999px;
   width: 37px;
   height: 37px;
   background: url("../images/edu.png") 0 0 no-repeat; }
 
 .work {
   float: left;
-  overflow: hidden;
-  text-align: left;
-  direction: ltr;
-  text-indent: -9999px;
   width: 37px;
   height: 37px;
   background: url("../images/work.png") 0 0 no-repeat; }
 
-.accomplishment {
+.acomplish {
   float: left;
-  overflow: hidden;
-  text-align: left;
-  direction: ltr;
-  text-indent: -9999px;
   width: 37px;
   height: 37px;
   background: url("../images/accomplishment.png") 0 0 no-repeat; }
