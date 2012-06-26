@@ -38,7 +38,7 @@ html {
 body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #444444;
-  font: 14px/1.5 "Droid Sans", "Helvetica Neue", arial, helvetica, clean, sans-serif; }
+  font: 16px/1.5 "Droid Sans", "Helvetica Neue", arial, helvetica, clean, sans-serif; }
 
 h1, h2 {
   margin: 0.5em 0; }
@@ -98,18 +98,21 @@ img {
 
 .edu {
   float: left;
-  width: 37px;
-  height: 37px; }
+  width: 42px;
+  height: 100%;
+  margin-right: 10px; }
 
 .work {
   float: left;
-  width: 37px;
-  height: 37px; }
+  width: 42px;
+  height: 100%;
+  margin-right: 10px; }
 
 .acomplish {
   float: left;
-  width: 37px;
-  height: 37px; }
+  width: 42px;
+  height: 100%;
+  margin-right: 10px; }
 
 .pink {
   color: #ec008c; }
