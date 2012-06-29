@@ -194,7 +194,7 @@ html {
         html body #container #main #chart {
           width: 100%; }
           html body #container #main #chart article {
-            margin: 1em 0; }
+            margin: 1em 1em 0 0; }
           html body #container #main #chart #work_experience {
             overflow: hidden;
             width: 650px;
