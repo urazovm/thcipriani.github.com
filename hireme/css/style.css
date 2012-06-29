@@ -160,6 +160,8 @@ html {
         html body #container #main .no_col {
           float: left;
           width: 100%; }
+          html body #container #main .no_col ul {
+            margin: 0 75px 0 14px; }
         html body #container #main #subway {
           height: 410px;
           border: 5px solid #e5e5e5;
