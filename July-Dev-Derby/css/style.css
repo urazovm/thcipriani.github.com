@@ -223,8 +223,8 @@ body {
             height: 32px;
             margin-top: -16px;
             margin-left: -16px;
-            -webkit-transition: margin-top 0s 999999s,
-                                margin-left 0s 999999s; 
+            -webkit-transition: margin-top 0 999999s,
+                                margin-left 0 999999s; 
                -moz-transition: margin-top 0s 999999s,
                                 margin-left 0s 999999s; 
                  -o-transition: margin-top 0s 999999s,
@@ -305,8 +305,8 @@ body {
   .right-button:active ~ .character, 
   .down-button:active ~ .character, 
   .left-button:active ~ .character { 
-    -webkit-transition: margin-top 2s 0s,
-                        margin-left 2s 0s; 
+    -webkit-transition: margin-top 2s 0,
+                        margin-left 2s 0; 
        -moz-transition: margin-top 2s 0s,  
                         margin-left 2s 0s; 
          -o-transition: margin-top 2s 0s, 
