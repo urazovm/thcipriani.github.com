@@ -201,17 +201,6 @@ body {
           background: url(../images/background.png) 0 0 no-repeat;
           position: relative;
           height: 480px;
-          opacity: 0;
-          -webkit-transition: all 0.3s linear; 
-             -moz-transition: all 0.3s linear;
-               -o-transition: all 0.3s linear;
-                  transition: all 0.3s linear;
-
-          /* without mouse action you're dependant on animation...*/
-          -webkit-animation: showAnswer 999999s 45s 1;
-             -moz-animation: showAnswer 999999s 45s 1;
-               -o-animation: showAnswer 999999s 45s 1;
-                  animation: showAnswer 999999s 45s 1;
         }
 
           .character {
