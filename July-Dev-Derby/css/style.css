@@ -133,7 +133,7 @@ body {
   }
 
     .scroller {
-      margin: -1610px auto;
+      margin: -2005px auto;
       width: 520px;
     }
 
@@ -463,22 +463,22 @@ body {
   @-webkit-keyframes scroll1 {
     0%   { margin: 50% auto 0; }
     25%  { margin: 0 auto; }
-    100% { margin: -1610px auto 0; }
+    100% { margin: -2005px auto 0; }
   }
   @-moz-keyframes scroll1 {
     0%   { margin: 50% auto 0; }
     25%  { margin: 0 auto; }
-    100% { margin: -1610px auto 0; }
+    100% { margin: -2005px auto 0; }
   }
   @-o-keyframes scroll1 {
     0%   { margin: 50% auto 0; }
     25%  { margin: 0 auto 0; }
-    100% { margin: -1610px auto 0; }
+    100% { margin: -2005px auto 0; }
   }
   @keyframes scroll1 {
     0%   { margin: 50% auto 0; }
     25%  { margin: 0 auto; }
-    100% { margin: -1610px auto 0; }
+    100% { margin: -2005px auto 0; }
   }
 
 #answer {
