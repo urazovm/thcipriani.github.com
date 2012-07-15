@@ -463,21 +463,25 @@ body {
   @-webkit-keyframes scroll1 {
     0%   { margin: 50% auto 0; }
     25%  { margin: 0 auto; }
+    35%   { margin: -395px auto 0; }
     100% { margin: -2005px auto 0; }
   }
   @-moz-keyframes scroll1 {
     0%   { margin: 50% auto 0; }
     25%  { margin: 0 auto; }
+    35%   { margin: -395px auto 0; }
     100% { margin: -2005px auto 0; }
   }
   @-o-keyframes scroll1 {
     0%   { margin: 50% auto 0; }
     25%  { margin: 0 auto 0; }
+    35%   { margin: -395px auto 0; }
     100% { margin: -2005px auto 0; }
   }
   @keyframes scroll1 {
     0%   { margin: 50% auto 0; }
     25%  { margin: 0 auto; }
+    35%   { margin: -395px auto 0; }
     100% { margin: -2005px auto 0; }
   }
 
