@@ -52,8 +52,7 @@
     position: relative;
     z-index: 1000; }
   .deck-container .slide ul {
-    clear: left;
-    font-size: 1.4em; }
+    clear: left; }
   .deck-container .slide ::-moz-selection {
     background: #c00;
     color: #fff; }
@@ -65,6 +64,10 @@
     text-decoration: underline; }
   .deck-container .slide a:hover, .deck-container .slide a:focus {
     text-decoration: underline; }
+  .deck-container .slide .description {
+    float: left;
+    width: 40%;
+    margin: 5% 10% 0 0; }
   .deck-container .deck-prev-link, .deck-container .deck-next-link {
     background: #ccc;
     font-family: serif; }
