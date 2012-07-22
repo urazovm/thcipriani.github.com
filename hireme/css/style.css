@@ -69,7 +69,8 @@ p {
 
 ul, ol {
   margin: 1em 0;
-  padding: 0 0 0 40px; }
+  padding: 0 0 0 40px;
+  clear: left; }
 
 nav ul, nav ol {
   list-style: none;
@@ -215,15 +216,17 @@ html {
               html body #container #main #chart #geek_cred ol a:link, html body #container #main #chart #geek_cred ol a:active, html body #container #main #chart #geek_cred ol a:visited {
                 color: #f1f1f1; }
           html body #container #main #chart #believe_to_achieve {
-            width: 320px;
+            clear: both;
+            width: 50%;
             float: left;
             color: #444444; }
             html body #container #main #chart #believe_to_achieve h2 {
               display: none; }
           html body #container #main #chart #Edutopia {
             float: left;
-            width: 320px;
-            color: #444444; }
+            width: 45%;
+            color: #444444;
+            padding-left: 5%; }
             html body #container #main #chart #Edutopia h2 {
               display: none; }
       html body #container footer {
