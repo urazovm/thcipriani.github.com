@@ -147,6 +147,15 @@ img {
   *line-height: 0;
 }
 
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    *overflow: visible;
+}
+
 /*
  * }}
  * Regular styles
@@ -345,4 +354,65 @@ html {
 @-ms-keyframes logo {
   50%   { background-color: #009F13; }
   100%   { background-color: #EC0647; }
+}
+
+@media only screen and (max-width: 35em) {
+  .container {
+    width: 95%;
+    padding: 0 2%;
+    margin: 0 auto;
+  }
+
+    header {
+      width: 100%;
+      padding: 5px 0 0 0;
+      float: none;
+      position: static;
+    }
+
+      nav {
+        text-align: center;
+      }
+
+        nav .nav {
+          padding: 0;
+          font-size: 1.4em;
+        }
+
+          .nav li a {
+            padding: 2%;
+          }
+
+      .main {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 0 0;
+        float: none;
+      }
+
+        .inside {
+          padding: 0 20px 20px;
+        }
+
+            .gallery .work {
+              display: block;
+              margin: 5px auto;
+              background: dimGrey url(../images/Cross_bg.png) 0 0 repeat;
+              -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+                      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+            }
+
+            .columns {
+              -webkit-column-count: 1;  -webkit-column-gap: 0px;
+                 -moz-column-count: 1;     -moz-column-gap: 0px;
+                      column-count: 1;          column-gap: 0px;
+            }
+
+            .vcard.photo {
+              float: none;
+              margin: 0;
+            }
+
+
+
 }
