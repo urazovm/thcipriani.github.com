@@ -1,5 +1,30 @@
 /*
- * Famous 100-line reset – trimmed normalize.css (
+ * Out Icon
+ */
+@font-face {
+	font-family: 'icon';
+	src: url('fonts/icon.eot');
+	src: url('fonts/icon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icon.svg#icon') format('svg'),
+		url('fonts/icon.woff') format('woff'),
+		url('fonts/icon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'icon';
+	font-style: normal;
+	speak: none;
+  margin: .25em 0 0 .25em;
+}
+
+.icon-out:before {
+	content: "\21";
+}
+
+/*
+ * Reset {
  * ------------
  */
 article,
@@ -123,6 +148,7 @@ img {
 }
 
 /*
+ * }}
  * Regular styles
  */
 html { 

@@ -3,12 +3,16 @@
 */
 
 $(function(){
+  $('header a').on('click',function(e){
+    var $anchor = $(this),
+        target = $anchor.attr('href');
 
-  $('a.loadIt').on('click',function(e) {
-    e.preventDefault();
-    var href = $(this).href();
-
-    $('.main').load(href + 'div.container');
+    if (target !== 'hireme/') {
+      e.preventDefault();
+ 
+      $('html, body').stop().animate({
+        scrollTop: $(target).offset().top
+      }, 1500,'swing');
+    }
   });
-
 });
