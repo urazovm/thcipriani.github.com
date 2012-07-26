@@ -67,7 +67,7 @@
   .deck-container .slide .description {
     float: left;
     width: 40%;
-    margin: 5% 10% 0 0; }
+    margin: 2% 0 0 5%; }
   .deck-container .deck-prev-link, .deck-container .deck-next-link {
     background: #ccc;
     font-family: serif; }

@@ -4,10 +4,11 @@
 
 $(function(){
 
-  $('a.vcard').on('click',function(e) {
+  $('a.loadIt').on('click',function(e) {
     e.preventDefault();
+    var href = $(this).href();
 
-    $('body').load('vcard.html div.container');
+    $('.main').load(href + 'div.container');
   });
 
 });
