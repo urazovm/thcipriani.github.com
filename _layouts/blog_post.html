@@ -4,7 +4,6 @@ layout: default
 
 <section class="sub">
   <div class="inside">
-    <a href="/blog/" title="Back to the weblog">&larr;Back</a>
     <hgroup>
       <h2>{{ page.title }}</h2>
     </hgroup>
@@ -13,6 +12,10 @@ layout: default
     {% endif %}
 
     {{ content }}
+
+    <div class="back-to-blog">
+      <a href="/blog/" title="Back to the weblog">&larr;See more posts</a>
+    </div>
 
   </div><!--/.inside-->
 </section><!--/.sub-->

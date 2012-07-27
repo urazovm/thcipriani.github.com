@@ -341,6 +341,13 @@ html {
               padding: 1em 0;
             }
 
+            .back-to-blog {
+              text-align: left;
+              border-top: 1px dotted #a9a9a9;
+              font-size: .75em;
+              padding: 1em 0;
+            }
+
       footer {
         position: fixed;
         height: 2em;
