@@ -160,17 +160,16 @@ input[type="submit"] {
  * }}
  * Regular styles
  */
-html { 
-  background: #f8f8f8 url(../images/bg.jpg) top left repeat fixed;
-  background: url(../images/Cross_bg.png) top left repeat fixed, 
-              url(../images/bg.jpg) top left repeat fixed #f8f8f8;
-}
-
   body { 
     font-family: "ff-tisa-web-pro", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
     font-size: 1.2em;
     color: #444;
     text-shadow: 0px 1px 0px #fff;
+    background: #ececec url(../images/cross_bg1.png) 0 0 repeat fixed;
+    /*background: #f8f8f8 url(../images/bg_combo.jpg) top left repeat fixed;
+     *background: url(../images/Cross_bg.png) top left repeat fixed, 
+     *url(../images/bg.jpg) top left repeat fixed #f8f8f8;
+     */
   }
 
     .container {
