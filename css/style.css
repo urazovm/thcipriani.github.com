@@ -330,6 +330,10 @@ html {
               display: block;
             }
 
+            .permalink {
+              border-top: 1px dotted #a9a9a9;
+            }
+
       footer {
         position: fixed;
         height: 2em;
