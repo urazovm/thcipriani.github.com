@@ -7,8 +7,8 @@ In Ubuntu the alt+numpad ACSII codes don’t work—this _was_ a major stumbling
 
 After spending way too much time Googling I found that these steps work:
 * Hold Ctrl+Shift+U 
-* release the “U” key (while still holding Ctrl+Shift) 
-* type the Unicode code for the special character you’d like to use
+* Release the “U” key (while still holding Ctrl+Shift) 
+* Type the Unicode code for the special character you’d like to use
 * Find unicode characters by [searching on Wolfram Alpha](http://www.wolframalpha.com/input/?i=em+dash "em dash - Wolfram|Alpha")
 
 Of course, CopyPasteCharacter.com is another great [unicode character reference](http://copypastecharacter.com/ "✿ Our favorite set — CopyPasteCharacter.com")

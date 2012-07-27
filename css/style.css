@@ -161,9 +161,9 @@ input[type="submit"] {
  * Regular styles
  */
 html { 
-  background: #f8f8f8 url(../images/bg.jpg) 0 0 repeat fixed;
-  background: url(../images/Cross_bg.png) 0 0 repeat fixed, 
-              url(../images/bg.jpg) 0 0 repeat fixed #f8f8f8;
+  background: #f8f8f8 url(../images/bg.jpg) top left repeat fixed;
+  background: url(../images/Cross_bg.png) top left repeat fixed, 
+              url(../images/bg.jpg) top left repeat fixed #f8f8f8;
 }
 
   body { 
