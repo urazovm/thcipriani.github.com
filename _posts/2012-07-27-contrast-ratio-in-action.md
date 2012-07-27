@@ -12,13 +12,13 @@ There is a formula for calculating the contrast of two colors available at [the 
 
 Alternately, you could skip the download and the hand-cranking of numbers and enter your hex codes into the [Luminosity Colour Contrast Ratio Analyser](http://juicystudio.com/services/luminositycontrastratio.php, 'Luminosity Colour Contrast Ratio Analyser')
 
-<hr style="border-bottom: 1px dotted #a9a9a9;" >
+<hr style="border: 1px dotted #a9a9a9;" >
 
 **Looking at popular websites contrast**
 
-The genisis of the exercise was to review websites I have built and my favorite foreground/background combos &ndash; SO &ndash; lets do that &hellip;
+The genesis of the exercise was to review websites I have built and my favorite foreground/background combinations so lets do that &hellip;
 
-<hr style="border-bottom: 1px dotted #444;" >
+<hr style="border: 1px dotted #444;" >
 **The text you're reading now**
 
 It's pretty good right? The text you're reading I mean&mdash;easy to read, contrast-wise anyway.
@@ -28,19 +28,19 @@ It's pretty good right? The text you're reading I mean&mdash;easy to read, contr
 * Contrast-ratio: 9.17:1 
 * Analysis: Pretty amazing.
 
-<hr style="border-bottom: 1px dotted #a9a9a9;" >
+<hr style="border: 1px dotted #a9a9a9;" >
 **Apple's nav bar**
 
 <img src="/images/Apple-nav-bar.png" alt="Apple's nav bar">
 
-Apple's nav bar is a gradient, so this analysis is for the the color at the lightest point vs. the text
+Apple's nav bar is a gradient, so this analysis is for the color at the lightest point of the gradient versus the text
 
 * Text color:  [#FFFFFF](http://www.colourlovers.com/color/FFFFFF)
 * Background color (again, at the lightest part of the gradient): [#727272](http://www.colourlovers.com/color/727272)
 * Contrast-ratio: 4.81:1
 * Analysis: Passed at Level AA for regular text, and pass at Level AAA for large text (18pt or 14pt bold)&mdash;Apple's nav text is SVG (ostensibly for the new retina displays), but it seems to be about 14pt bold. Good 'nuff.
 
-<hr style="border-bottom: 1px dotted #a9a9a9;" >
+<hr style="border: 1px dotted #a9a9a9;" >
 
 **Google's account settings bar**
 
