@@ -7,7 +7,7 @@ $(function(){
     var $anchor = $(this),
         target = $anchor.attr('href');
 
-    if (target !== '/hireme/') {
+    if (target !== '/hireme/' && target !== '/blog/') {
       e.preventDefault();
  
       $('html, body').stop().animate({
