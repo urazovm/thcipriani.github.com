@@ -270,6 +270,10 @@ html {
                   box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.3), 0 1px 0 white;
         }
 
+          .sub ul {
+            list-style: disc;
+          }
+
           .inside {
             padding: 0 20px 20px;
           }
@@ -331,7 +335,10 @@ html {
             }
 
             .permalink {
+              text-align: right;
               border-top: 1px dotted #a9a9a9;
+              font-size: .75em;
+              padding: 1em 0;
             }
 
       footer {
