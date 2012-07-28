@@ -441,6 +441,7 @@ input[type="submit"] {
         margin: 1em auto;
         width: 200px;
         height: 200px;
+        background-size: 173px;
       }
 
       nav {
