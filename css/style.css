@@ -87,7 +87,10 @@ strong {
 }
 
 blockquote {
-  margin: 1em 40px;
+  margin: 1em 15px;
+  padding: 15px 15px 15px 10px;
+  background: #F1F1F1;
+  border-left: 5px solid tomato;
 }
 
 table {
@@ -134,6 +137,14 @@ img {
   border: 0;
   vertical-align: middle;
   -ms-interpolation-mode: bicubic;
+}
+
+textarea {
+  max-width: 100%;
+}
+
+hr {
+  border-top: 1px dotted #a9a9a9;
 }
 
 .ir {
@@ -388,10 +399,10 @@ input[type="submit"] {
     }
 
       .logo {
-        background: #EC0647 url(../images/logo.png) no-repeat 20px 42px !important;
+        background: #EC0647 url(../images/logo.png) no-repeat 13px 37px !important;
         background-size: 120px;
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
       }
 
     .main {
@@ -399,10 +410,16 @@ input[type="submit"] {
     }
 
       .gallery .work{
-        width: 155px;
-        height: 155px;
+        width: 152px;
+        height: 152px;
         border: 1px solid rgba(0, 0, 0, 0.3);
       }
+
+      .vcard.photo {
+        float: left;
+        margin: 0 25px 0 25px;
+      }
+
 
 }
 @media only screen and (max-width: 35em) {

@@ -12,13 +12,14 @@ There is a formula for calculating the contrast of two colors available at [the 
 
 Alternately, you could skip the download and the hand-cranking of numbers and enter your hex codes into the [Luminosity Colour Contrast Ratio Analyser](http://juicystudio.com/services/luminositycontrastratio.php, 'Luminosity Colour Contrast Ratio Analyser')
 
-<hr style="border: 1px dotted #a9a9a9;" >
+<hr>
 
 **Looking at popular websites contrast**
 
 The genesis of the exercise was to review websites I have built and my favorite foreground/background combinations so lets do that &hellip;
 
-<hr style="border: 1px dotted #444;" >
+<hr>
+
 **The text you're reading now**
 
 It's pretty good right? The text you're reading I mean&mdash;easy to read, contrast-wise anyway.
@@ -28,7 +29,8 @@ It's pretty good right? The text you're reading I mean&mdash;easy to read, contr
 * Contrast-ratio: 9.17:1 
 * Analysis: Pretty amazing.
 
-<hr style="border: 1px dotted #a9a9a9;" >
+<hr>
+
 **Apple's nav bar**
 
 <img src="/images/Apple-nav-bar.png" alt="Apple's nav bar">
@@ -40,7 +42,7 @@ Apple's nav bar is a gradient, so this analysis is for the color at the lightest
 * Contrast-ratio: 4.81:1
 * Analysis: Passed at Level AA for regular text, and pass at Level AAA for large text (18pt or 14pt bold)&mdash;Apple's nav text is SVG (ostensibly for the new retina displays), but it seems to be about 14pt bold. Good 'nuff.
 
-<hr style="border: 1px dotted #a9a9a9;" >
+<hr>
 
 **Google's account settings bar**
 
@@ -56,3 +58,4 @@ The Google account settings bar has always seemed to be fairly low-contrast to m
 Out of curiousity I decided to see what these recommendations would look like for Google in practice&mdash;answer: not great (see below)
 
 <img src="/images/google-account-settings_large.png" alt="Google's account settings bar—larger font">
+
