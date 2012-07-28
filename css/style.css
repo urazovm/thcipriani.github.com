@@ -311,6 +311,10 @@ input[type="submit"] {
                   -webkit-filter: grayscale(0%);
                 }
 
+              .gallery .work:hover {
+                border: 3px solid tomato;
+              }
+
             .columns {
               -webkit-column-count: 2;  -webkit-column-gap: 20px;
                  -moz-column-count: 2;     -moz-column-gap: 20px;
@@ -343,6 +347,21 @@ input[type="submit"] {
 
             .ss-paragraph-text label {
               display: block;
+            }
+
+            .blogImg {
+              display: block;
+              max-width: 75%;
+              margin: 1em auto;
+              padding: 25px;
+              border: 1px solid #e8e8e8;
+              -webkit-border-radius: 6px;
+                      border-radius: 6px;
+                 -moz-background-clip: padding; 
+              -webkit-background-clip: padding-box; 
+                      background-clip: padding-box;
+              -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+                      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
             }
 
             .permalink {
@@ -414,6 +433,10 @@ input[type="submit"] {
         height: 152px;
         border: 1px solid rgba(0, 0, 0, 0.3);
       }
+
+        .gallery .work:hover {
+          border: 1px solid tomato;
+        }
 
       .vcard.photo {
         float: left;

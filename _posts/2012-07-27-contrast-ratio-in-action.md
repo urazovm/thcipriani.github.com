@@ -2,6 +2,13 @@
 layout: blog_post
 title: Website Contrast Ratio in Practce
 ---
+While perusing [Hacker News](http://news.ycombinator.com/ "Hacker News") I ran across a single-page site called 
+[Contrast Rebellion](http://contrastrebellion.com/ "Contrast Rebellion")&mdash;
+which I understand has created a bit of controversy.  I think that which the website espouses is a point well-made; 
+however, I feel that in functional designs contrast arises fairly organically. If I can't read my font, or there isn't 
+enough contrast in my color palate, then I know that the general assembly of people from whom I solicit opinions are going
+to nay-say my design until the problem is corrected. If only we were all so lucky.
+
 On the [topic of color contrast](http://www.w3.org/TR/WCAG10-CSS-TECHS/#style-color-contrast 'CSS Techniques for Web Content Accessibility Guidelines 1.0') the W3C defines [Success Criterion 1.4.3](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html 'Success Criterion 1.4.3') saying:
 >**Contrast (Minimum)**: The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following: (Level AA)
 >* **Large Text**: Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;
@@ -33,7 +40,7 @@ It's pretty good right? The text you're reading I mean&mdash;easy to read, contr
 
 **Apple's nav bar**
 
-<img src="/images/Apple-nav-bar.png" alt="Apple's nav bar">
+<img class="blogImg" src="/images/Apple-nav-bar.png" alt="Apple's nav bar">
 
 Apple's nav bar is a gradient, so this analysis is for the color at the lightest point of the gradient versus the text
 
@@ -46,7 +53,7 @@ Apple's nav bar is a gradient, so this analysis is for the color at the lightest
 
 **Google's account settings bar**
 
-<img src="/images/google-account-settings.png" alt="Google's account settings bar">
+<img class="blogImg" src="/images/google-account-settings.png" alt="Google's account settings bar">
 
 The Google account settings bar has always seemed to be fairly low-contrast to me&mdash;let's test a theory
 
@@ -57,5 +64,5 @@ The Google account settings bar has always seemed to be fairly low-contrast to m
 
 Out of curiousity I decided to see what these recommendations would look like for Google in practice&mdash;answer: not great (see below)
 
-<img src="/images/google-account-settings_large.png" alt="Google's account settings bar—larger font">
+<img class="blogImg" src="/images/google-account-settings_large.png" alt="Google's account settings bar—larger font">
 
