@@ -4,7 +4,9 @@ title: Website Contrast Ratio in Practce
 ---
 While perusing [Hacker News](http://news.ycombinator.com/ "Hacker News") I ran across a single-page site called 
 [Contrast Rebellion](http://contrastrebellion.com/ "Contrast Rebellion")&mdash;
-which I understand has created a bit of controversy.  I think that which the website espouses is a point well-made; 
+which I understand has created a bit of controversy. 
+
+I think that which the website espouses is a point well-made; 
 however, I feel that in functional designs contrast arises fairly organically. If I can't read my font, or there isn't 
 enough contrast in my color palate, then I know that the general assembly of people from whom I solicit opinions are going
 to nay-say my design until the problem is corrected. If only we were all so lucky.
