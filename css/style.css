@@ -380,6 +380,7 @@ input[type="submit"] {
       footer {
         position: fixed;
         height: 2em;
+        background: #5D5D5D;
         background: rgba(0, 0, 0, 0.3);
         color: white;
         bottom: 0;
