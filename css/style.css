@@ -175,6 +175,7 @@ input[type="submit"] {
   body { 
     font-family: "ff-tisa-web-pro", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
     font-size: 1.2em;
+    _font-size: 19px;
     color: #444;
     text-shadow: 0px 1px 0px #fff;
     background: #ececec url(../images/cross_bg1.png) 0 0 repeat fixed;
@@ -196,12 +197,11 @@ input[type="submit"] {
         min-height: 100%;
         width: 200px;
         padding: 20px 0 0 0;
-        position: fixed;
         z-index: -10;
       }
 
         .logo {
-          background: #EC0647 url(../images/logo.png) no-repeat 20px 50px !important;
+          background: #EC0647 url(../images/logo.png) no-repeat 20px 50px;
           margin: 1em auto;
           width: 200px;
           height: 200px;
@@ -239,6 +239,7 @@ input[type="submit"] {
           nav .nav {
             padding: 0;
             font-size: 1.4em;
+            _font-size: 22px;
           }
 
             .nav a {
@@ -266,6 +267,7 @@ input[type="submit"] {
 
         .jumbotron {
           font-size: 1.5em;
+          _font-size: 24px;
         }
 
         .sub {
@@ -414,11 +416,10 @@ input[type="submit"] {
     header {
       width: 20%;
       padding: 1% 0 0 0;
-      position: fixed;
     }
 
       .logo {
-        background: #EC0647 url(../images/logo.png) no-repeat 13px 37px !important;
+        background: #EC0647 url(../images/logo.png) no-repeat 13px 37px;
         background-size: 120px;
         width: 140px;
         height: 140px;
@@ -460,7 +461,7 @@ input[type="submit"] {
     }
 
       .logo {
-        background: #EC0647 url(../images/logo.png) no-repeat 20px 50px !important;
+        background: #EC0647 url(../images/logo.png) no-repeat 20px 50px;
         margin: 1em auto;
         width: 200px;
         height: 200px;
@@ -474,6 +475,7 @@ input[type="submit"] {
         nav .nav {
           padding: 0;
           font-size: 1.4em;
+          _font-size: 22px;
         }
 
           .nav li a {
