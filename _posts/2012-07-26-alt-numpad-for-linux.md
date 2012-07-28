@@ -11,5 +11,5 @@ After spending way too much time Googling I found that these steps work:
 * Type the Unicode code for the special character you’d like to use
 * Find unicode characters by [searching on Wolfram Alpha](http://www.wolframalpha.com/input/?i=em+dash "em dash - Wolfram|Alpha")
 
-Another great unicode character reference for math and science can be found at [Penn State's website](http://tlt.its.psu.edu/suggestions/international/bylanguage/mathchart.html "Math Unicode Entities")
-Of course if you don't want to remember these unicode characters, CopyPasteCharacter.com is a good [ACSII character resource](http://copypastecharacter.com/ "✿ Our favorite set — CopyPasteCharacter.com")
+Another great unicode character reference for math and science can be found at [Penn State's website](http://tlt.its.psu.edu/suggestions/international/bylanguage/mathchart.html "Math Unicode Entities").
+Of course, if you don't want to remember these unicode characters, CopyPasteCharacter.com is a good [ACSII character resource](http://copypastecharacter.com/ "✿ Our favorite set — CopyPasteCharacter.com").

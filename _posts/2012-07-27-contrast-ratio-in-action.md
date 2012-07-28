@@ -27,18 +27,18 @@ Alternately, you could skip the download and the hand-cranking of numbers and en
 
 **Looking at popular websites contrast**
 
-The genesis of the exercise was to review websites I have built and my favorite foreground/background combinations so lets do that &hellip;
+The genesis of this exercise was to review websites I have built and to review some other popular sites so lets do that &hellip;
 
 <hr>
 
-**The text you're reading now**
+**The contrast on this site**
 
 It's pretty good right? The text you're reading I mean&mdash;easy to read, contrast-wise anyway.
 
-* Text color: [#444444](http://www.colourlovers.com/color/444444)
-* Background color: [#f8f8f8](http://www.colourlovers.com/color/F8F8F8)
-* Contrast-ratio: 9.17:1 
-* Analysis: Pretty amazing.
+* **Text color**: [#444444](http://www.colourlovers.com/color/444444)
+* **Background color**: [#f8f8f8](http://www.colourlovers.com/color/F8F8F8)
+* **Contrast-ratio**: 9.17:1 
+* **Analysis**: Pretty amazing.
 
 <hr>
 
@@ -48,10 +48,10 @@ It's pretty good right? The text you're reading I mean&mdash;easy to read, contr
 
 Apple's nav bar is a gradient, so this analysis is for the color at the lightest point of the gradient versus the text
 
-* Text color:  [#FFFFFF](http://www.colourlovers.com/color/FFFFFF)
-* Background color (again, at the lightest part of the gradient): [#727272](http://www.colourlovers.com/color/727272)
-* Contrast-ratio: 4.81:1
-* Analysis: Passed at Level AA for regular text, and pass at Level AAA for large text (18pt or 14pt bold)&mdash;Apple's nav text is SVG (ostensibly for the new retina displays), but it seems to be about 14pt bold. Good 'nuff.
+* **Text color**:  [#FFFFFF](http://www.colourlovers.com/color/FFFFFF)
+* **Background color** (again, at the lightest part of the gradient): [#727272](http://www.colourlovers.com/color/727272)
+* **Contrast-ratio**: 4.81:1
+* **Analysis**: Passed at Level AA for regular text, and pass at Level AAA for large text (18pt or 14pt bold)&mdash;Apple's nav text is SVG (ostensibly for the new retina displays), but it seems to be about 13pt&ndash;14pt. A little low-contrast perhaps, but not too drastic.
 
 <hr>
 
@@ -61,10 +61,10 @@ Apple's nav bar is a gradient, so this analysis is for the color at the lightest
 
 The Google account settings bar has always seemed to be fairly low-contrast to me&mdash;let's test a theory.
 
-* Text color:  [#666666](http://www.colourlovers.com/color/666666)
-* Background color: [#F1F1F1](http://www.colourlovers.com/color/F1F1F1)
-* Contrast-ratio: 5.08:1
-* Analysis: Passed at Level AA for regular text, and pass at Level AAA for large text (18pt or 14pt bold)&mdash;better contrast than Apple; however, the text in this image above is 13px/27px Arial,sans-serif at the default font-weight which is close, but not quite ideal.
+* **Text color**:  [#666666](http://www.colourlovers.com/color/666666)
+* **Background color**: [#F1F1F1](http://www.colourlovers.com/color/F1F1F1)
+* **Contrast-ratio**: 5.08:1
+* **Analysis**: Passed at Level AA for regular text, and pass at Level AAA for large text (18pt or 14pt bold)&mdash;better contrast than Apple; however, the text in this image above is 13px/27px Arial,sans-serif at the default font-weight which is close, but not quite ideal.
 
 Out of curiousity I decided to see what these recommendations would look like for Google in practice&mdash;answer: more readable, arguably less aesthetically appealing (see below).
 
