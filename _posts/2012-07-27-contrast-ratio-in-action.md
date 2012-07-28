@@ -55,14 +55,14 @@ Apple's nav bar is a gradient, so this analysis is for the color at the lightest
 
 <img class="blogImg" src="/images/google-account-settings.png" alt="Google's account settings bar">
 
-The Google account settings bar has always seemed to be fairly low-contrast to me&mdash;let's test a theory
+The Google account settings bar has always seemed to be fairly low-contrast to me&mdash;let's test a theory.
 
 * Text color:  [#666666](http://www.colourlovers.com/color/666666)
 * Background color: [#F1F1F1](http://www.colourlovers.com/color/F1F1F1)
 * Contrast-ratio: 5.08:1
 * Analysis: Passed at Level AA for regular text, and pass at Level AAA for large text (18pt or 14pt bold)&mdash;better contrast than Apple; however, the text in this image above is 13px/27px Arial,sans-serif at the default font-weight which is close, but not quite ideal.
 
-Out of curiousity I decided to see what these recommendations would look like for Google in practice&mdash;answer: not great (see below)
+Out of curiousity I decided to see what these recommendations would look like for Google in practice&mdash;answer: more readable, arguably less aesthetically appealing (see below).
 
 <img class="blogImg" src="/images/google-account-settings_large.png" alt="Google's account settings bar—larger font">
 
