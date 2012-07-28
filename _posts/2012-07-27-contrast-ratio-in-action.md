@@ -6,10 +6,10 @@ While perusing [Hacker News](http://news.ycombinator.com/ "Hacker News") I ran a
 [Contrast Rebellion](http://contrastrebellion.com/ "Contrast Rebellion")&mdash;
 which I understand has created a bit of controversy. 
 
-I think that which the website espouses is a point well-made; 
-however, I feel that in functional designs contrast arises fairly organically. If I can't read my font, or there isn't 
-enough contrast in my color palate, then I know that the general assembly of people from whom I solicit opinions are going
-to nay-say my design until the problem is corrected. 
+I think the point espoused by Contrast Rebellion is both well-made and well-taken (despite the host of straw-man style arguments to the contrary); 
+however, I feel that&mdash;in _most_ designs&mdash;contrast arises fairly organically. If I can't read my font, or there isn't 
+enough contrast in my color palate, then I know that the people from whom I solicit opinions are going
+to mention that before saying anything else.
 
 If only we were all so lucky. &#9786;
 
