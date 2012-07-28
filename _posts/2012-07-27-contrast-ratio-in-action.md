@@ -9,7 +9,9 @@ which I understand has created a bit of controversy.
 I think that which the website espouses is a point well-made; 
 however, I feel that in functional designs contrast arises fairly organically. If I can't read my font, or there isn't 
 enough contrast in my color palate, then I know that the general assembly of people from whom I solicit opinions are going
-to nay-say my design until the problem is corrected. If only we were all so lucky.
+to nay-say my design until the problem is corrected. 
+
+If only we were all so lucky &#9786;.
 
 On the [topic of color contrast](http://www.w3.org/TR/WCAG10-CSS-TECHS/#style-color-contrast 'CSS Techniques for Web Content Accessibility Guidelines 1.0') the W3C defines [Success Criterion 1.4.3](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html 'Success Criterion 1.4.3') saying:
 >**Contrast (Minimum)**: The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following: (Level AA)
