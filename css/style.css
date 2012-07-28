@@ -175,7 +175,6 @@ input[type="submit"] {
   body { 
     font-family: "ff-tisa-web-pro", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
     font-size: 1.2em;
-    _font-size: 19px;
     color: #444;
     text-shadow: 0px 1px 0px #fff;
     background: #ececec url(../images/cross_bg1.png) 0 0 repeat fixed;
@@ -239,7 +238,6 @@ input[type="submit"] {
           nav .nav {
             padding: 0;
             font-size: 1.4em;
-            _font-size: 22px;
           }
 
             .nav a {
@@ -267,7 +265,6 @@ input[type="submit"] {
 
         .jumbotron {
           font-size: 1.5em;
-          _font-size: 24px;
         }
 
         .sub {
@@ -475,7 +472,6 @@ input[type="submit"] {
         nav .nav {
           padding: 0;
           font-size: 1.4em;
-          _font-size: 22px;
         }
 
           .nav li a {
