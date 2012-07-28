@@ -436,6 +436,13 @@ input[type="submit"] {
       position: static;
     }
 
+      .logo {
+        background: #EC0647 url(../images/logo.png) no-repeat 20px 50px !important;
+        margin: 1em auto;
+        width: 200px;
+        height: 200px;
+      }
+
       nav {
         text-align: center;
       }
