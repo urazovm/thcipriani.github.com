@@ -272,6 +272,7 @@ html {
           width: 100%;
           float: none; }
         html body #container #main #chart #geek_cred {
+          float: none;
           width: auto;
           clear: left;
           margin-top: 18px; }
@@ -284,7 +285,8 @@ html {
           float: none; }
         html body #container #main #chart #Edutopia {
           width: 100%;
-          float: none; }
+          float: none;
+          padding-left: 0; }
       html body #container footer {
         text-align: center;
         padding: 10px 0; } }
