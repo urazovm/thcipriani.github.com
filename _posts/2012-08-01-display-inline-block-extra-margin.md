@@ -2,7 +2,9 @@
 layout: blog_post
 title: CSS display inline-block Extra Margin/Space
 ---
-**TL;DR**: The margin isn't a margin&mdash;it's a space. Try using display: block; float: left; instead.
+**TL;DR**: The margin isn't a margin&mdash;it's a space. Try using display: block; float: left; instead. 
+
+**ALSO:** Checkout the amazing list of techniques to combat inline-block space-margins at [CSS Tricks](http://css-tricks.com/fighting-the-space-between-inline-block-elements/ "Fighting the Space Between inline-block Elements")
 <hr>
 I've made a weird discovery about using the inline-block display. 
 I use inline-block elements on my [homepage](http://www.tylercipriani.com, "Tyler Cipriani") in the _Recent Work_ section.
