@@ -13,12 +13,12 @@ I noticed that the math for these block elements wasn't quite adding up&mdash;th
 three items on one line; however, the elements were wrapping.
 
 Here's an example of what I'm talking about:
-<iframe style="width: 100%; height: 300px;" src="http://jsfiddle.net/thcipriani/r7egr/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
+<iframe style="margin: 1em 0; width: 100%; height: 300px;" src="http://jsfiddle.net/thcipriani/r7egr/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
 
 Even though the margin of each element is set to zero there is seemingly, a margin, between each element.
 
 This problem could be easily solved by removing the display property, floating each gallery item and using a clearfix on the parent:
-<iframe style="width: 100%; height: 300px;" src="http://jsfiddle.net/thcipriani/r7egr/2/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
+<iframe style="margin: 1em 0; width: 100%; height: 300px;" src="http://jsfiddle.net/thcipriani/r7egr/2/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
 
 That solution, however, ignores <em>why</em> that space is being added.
 
@@ -32,4 +32,4 @@ Knowing what is creating an inline-block displayed &lt;div&gt;'s "margin" enable
 * Or, **Finally**, just use display: block; float: left;
 
 Here's an example of what the second solution would look like:
-<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/thcipriani/r7egr/3/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
+<iframe style="margin: 1em 0; width: 100%; height: 300px" src="http://jsfiddle.net/thcipriani/r7egr/3/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0"> </iframe>
