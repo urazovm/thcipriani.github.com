@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: Website Contrast Ratio in Practce
+title: Website Contrast Ratio in Practice
 ---
 While perusing [Hacker News](http://news.ycombinator.com/ "Hacker News") I ran across a single-page site called 
 [Contrast Rebellion](http://contrastrebellion.com/ "Contrast Rebellion")&mdash;
