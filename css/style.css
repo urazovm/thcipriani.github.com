@@ -174,7 +174,7 @@ input[type="submit"] {
  * Regular styles
  */
   body { 
-    font-family: "ff-tisa-web-pro", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    font-family: "skolar", Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
     font-size: 1.2em;
     color: #444;
     text-shadow: 0px 1px 0px #fff;
