@@ -389,6 +389,10 @@ input[type="submit"] {
               padding: 1em 0;
             }
 
+            #dsq-footer {
+              font-size: .5em;
+            }
+
       footer {
         position: fixed;
         height: 2em;
@@ -399,6 +403,8 @@ input[type="submit"] {
         left: 0;
         width: 100%;
       }
+
+
 
 /*
  * Animations
