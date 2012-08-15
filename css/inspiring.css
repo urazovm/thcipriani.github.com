@@ -1,4 +1,4 @@
-.logo {
+.inspiring-logo {
   clear: left;
   background: #231f20;
   width: 400px;
@@ -176,7 +176,7 @@
   transform: rotate(-25deg);
 }
 
-.logo:after {
+.inspiring-logo:after {
   content: "";
   width: 45px;
   height: 45px;
@@ -188,7 +188,7 @@
   border: 10px solid #fff;
 }
 
-.logo:before {
+.inspiring-logo:before {
   content: "";
   width: 30px;
   height: 130px;
