@@ -2,21 +2,21 @@
  * Out Icon
  */
 @font-face {
+	font-weight: normal;
+	font-style: normal;
 	font-family: 'icon';
 	src: url('fonts/icon.eot');
 	src: url('fonts/icon.eot?#iefix') format('embedded-opentype'),
 		url('fonts/icon.svg#icon') format('svg'),
 		url('fonts/icon.woff') format('woff'),
 		url('fonts/icon.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
-	font-family: 'icon';
-	font-style: normal;
-	speak: none;
   margin: .25em 0 0 .25em;
+	font-style: normal;
+	font-family: 'icon';
+	speak: none;
 }
 
 .icon-out:before {
@@ -90,52 +90,43 @@ strong {
 blockquote {
   margin: 1em 15px;
   padding: 10px 15px 20px 10px;
-  background: #F1F1F1;
   border-left: 5px solid tomato;
+  background: #F1F1F1;
 }
 
 table {
-  border-collapse: collapse;
-	border-spacing: 0; 
+	border-spacing: 0;
+  border-collapse: collapse; 
 }
 
 h1 {
-  font-size: 2em;
   margin: 0.67em 0;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 1.5em;
   margin: 0.83em 0;
+  font-size: 1.5em;
 }
 
 h3 {
-    font-size: 1.17em;
     margin: 1em 0;
+    font-size: 1.17em;
 }
 
 h4 {
-    font-size: 1em;
     margin: 1.33em 0;
+    font-size: 1em;
 }
 
 h5 {
-    font-size: 0.83em;
     margin: 1.67em 0;
+    font-size: 0.83em;
 }
 
 h6 {
-    font-size: 0.75em;
     margin: 2.33em 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "minion-pro", Georgia, "Times New Roman", serif;
+    font-size: 0.75em;
 }
 
 p { 
@@ -159,12 +150,12 @@ hr {
 
 .ir {
   display: block; 
-  border: 0; 
-  text-indent: -999em; 
   overflow: hidden; 
+  border: 0; 
   background-color: transparent; 
   background-repeat: no-repeat; 
   text-align: left; 
+  text-indent: -999em; 
   direction: ltr; 
   *line-height: 0;
 }
@@ -180,11 +171,11 @@ input[type="submit"] {
 
 .codeBlock {
   display: block;
-  background: #232323;
+  margin: 1em 0;
   padding: 20px;
+  background: #232323;
   color: ghostwhite;
   text-shadow: 0px 0px 0px #232323;
-  margin: 1em 0;
 }
 
 .gist {
@@ -196,63 +187,62 @@ input[type="submit"] {
  * }}
  * Regular styles
  */
-  body { 
-    font-family: "brandon-grotesque", arial, sans-serif;
-    font-size: 1.2em;
+  body {
+    background: #ececec url(../images/cross_bg1.png) 0 0 repeat fixed;
+    /* background: #f8f8f8 url(../images/bg_combo.jpg) top left repeat fixed; */
     color: #444;
     text-shadow: 0px 1px 0px #fff;
-    background: #ececec url(../images/cross_bg1.png) 0 0 repeat fixed;
-    /*background: #f8f8f8 url(../images/bg_combo.jpg) top left repeat fixed;
-     *background: url(../images/Cross_bg.png) top left repeat fixed, 
-     *url(../images/bg.jpg) top left repeat fixed #f8f8f8;
-     */
+    font-size: 1.2em; 
+    font-family: "minion-pro", Georgia, "Times New Roman", serif;
+    /* *background: url(../images/Cross_bg.png) top left repeat fixed, 
+     *url(../images/bg.jpg) top left repeat fixed #f8f8f8; */
   }
 
     .container {
-      width: 960px;
-      padding: 0 10px;
       margin: 0 auto;
+      padding: 0 10px;
+      width: 960px;
     }
 
       header {
+        z-index: -10;
         float: left;
         overflow: hidden;
+        padding: 20px 0 0 0;
         min-height: 100%;
         width: 200px;
-        padding: 20px 0 0 0;
-        z-index: -10;
       }
 
         .logo {
-          background: #EC0647 url(../images/logo.png) no-repeat 20px 50px;
           margin: 1em auto;
           width: 200px;
           height: 200px;
           -webkit-border-radius: 100px;
            -moz-border-radius: 100px;
                 border-radius: 100px;
-          -moz-background-clip: padding; 
-          -webkit-background-clip: padding-box; 
+          background: #EC0647 url(../images/logo.png) no-repeat 20px 50px;
+          background-clip: padding-box; 
           -webkit-box-shadow: inset 0 0 8px 8px rgba(0, 0, 0, 0.1);
              -moz-box-shadow: inset 0 0 8px 8px rgba(0, 0, 0, 0.1);
                   box-shadow: inset 0 0 8px 8px rgba(0, 0, 0, 0.1);
-          background-clip: padding-box;
-          -webkit-transform: rotate(-3deg); 
-             -moz-transform: rotate(-3deg); 
-              -ms-transform: rotate(-3deg); 
-               -o-transform: rotate(-3deg); 
-                  transform: rotate(-3deg);
-                     filter: progid:DXImageTransform.Microsoft.Matrix(/* IE6–IE9 */
-                             M11=0.9986295347545738, M12=0.05233595624294383, M21=-0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
-                       zoom: 1;
           -webkit-transition: all 0.3s linear; 
              -moz-transition: all 0.3s linear; 
               -ms-transition: all 0.3s linear; 
                -o-transition: all 0.3s linear; 
                   transition: all 0.3s linear;
+          -webkit-transform: rotate(-3deg); 
+             -moz-transform: rotate(-3deg); 
+              -ms-transform: rotate(-3deg); 
+               -o-transform: rotate(-3deg); 
+                  transform: rotate(-3deg);
           -webkit-animation: logo 15s infinite; /* Saf5, Chrome */
              -moz-animation: logo 15s infinite; /* FF5+ */
               -ms-animation: logo 15s infinite; /* IE10 */
+                       zoom: 1;
+          -moz-background-clip: padding; 
+          -webkit-background-clip: padding-box;
+                     filter: progid:DXImageTransform.Microsoft.Matrix(/* IE6–IE9 */
+                             M11=0.9986295347545738, M12=0.05233595624294383, M21=-0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
         }
 
         nav {
@@ -279,30 +269,29 @@ input[type="submit"] {
               }
 
       .main {
-        width: 700px;
-        margin: 0;
-        padding: 20px 0 0 0;
+        z-index: 10;
         float: right;
         overflow: hidden;
-        z-index: 10;
+        margin: 0;
+        padding: 20px 0 0 0;
+        width: 700px;
       }
 
         .jumbotron {
           font-size: 1.5em;
-          font-family: "minion-pro", Georgia, "Times New Roman", serif;
         }
 
         .sub {
           margin: 1em auto 3em;
-          background: #f8f8f8;
           border: 1px solid #d9d9d9;
           -webkit-border-radius: 12px;
                   border-radius: 12px;
-             -moz-background-clip: padding; 
-          -webkit-background-clip: padding-box; 
+          background: #f8f8f8; 
                   background-clip: padding-box;
           -webkit-box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.3), 0 1px 0 white;
                   box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.3), 0 1px 0 white;
+             -moz-background-clip: padding; 
+          -webkit-background-clip: padding-box;
         }
 
           .sub ul {
@@ -319,16 +308,16 @@ input[type="submit"] {
 
               .gallery:before,
               .gallery:after {
-                content: " ";
                 display: table;
+                content: " ";
               }
 
             .gallery .work {
               float: left;
+              margin: 5px;
               width: 200px;
               height: 200px;
               border: 3px solid rgba(0, 0, 0, 0.3);
-              margin: 5px;
               background: dimGrey url(../images/Cross_bg.png) 0 0 repeat;
               -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
                       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
@@ -351,9 +340,13 @@ input[type="submit"] {
               }
 
             .columns {
-              -webkit-column-count: 2;  -webkit-column-gap: 20px;
-                 -moz-column-count: 2;     -moz-column-gap: 20px;
-                      column-count: 2;          column-gap: 20px;
+               -webkit-column-count: 2;
+                  -moz-column-count: 2;
+                       column-count: 2;  
+
+              -webkit-column-gap: 20px;    
+                 -moz-column-gap: 20px;          
+                      column-gap: 20px;
             }
 
             .vcard.photo {
@@ -371,9 +364,9 @@ input[type="submit"] {
             }
 
             .bd {
-              overflow:hidden;
-              _overflow:visible; 
+              overflow:hidden; 
               zoom:1;
+              _overflow:visible;
             }
 
             .bd ul {
@@ -386,32 +379,32 @@ input[type="submit"] {
 
             .blogImg {
               display: block;
-              max-width: 75%;
               margin: 1em auto;
               padding: 25px;
+              max-width: 75%;
               border: 1px solid #e8e8e8;
               -webkit-border-radius: 6px;
-                      border-radius: 6px;
-                 -moz-background-clip: padding; 
-              -webkit-background-clip: padding-box; 
+                      border-radius: 6px; 
                       background-clip: padding-box;
               -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
                       box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+                 -moz-background-clip: padding; 
+              -webkit-background-clip: padding-box;
             }
 
 
             .permalink {
-              text-align: right;
-              border-top: 1px dotted #a9a9a9;
-              font-size: .75em;
               padding: 1em 0;
+              border-top: 1px dotted #a9a9a9;
+              text-align: right;
+              font-size: .75em;
             }
 
             .back-to-blog {
-              text-align: left;
-              border-top: 1px dotted #a9a9a9;
-              font-size: .75em;
               padding: 1em 0;
+              border-top: 1px dotted #a9a9a9;
+              text-align: left;
+              font-size: .75em;
             }
 
             #dsq-footer {
@@ -420,13 +413,13 @@ input[type="submit"] {
 
       footer {
         position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
         height: 2em;
         background: #5D5D5D;
         background: rgba(0, 0, 0, 0.3);
         color: white;
-        bottom: 0;
-        left: 0;
-        width: 100%;
       }
 
 
@@ -449,31 +442,32 @@ input[type="submit"] {
 
 @media only screen and (max-width: 56em) {
   .container {
-    width: 95%;
-    padding: 0 2%;
     margin: 0 auto;
+    padding: 0 2%;
+    width: 95%;
   }
 
     header {
-      width: 20%;
       padding: 1% 0 0 0;
+      width: 20%;
     }
 
       .logo {
-        background: #EC0647 url(../images/logo.png) no-repeat 13px 37px;
-        background-size: 120px;
         width: 140px;
         height: 140px;
+        background: #EC0647 url(../images/logo.png) no-repeat 13px 37px;
+        background-size: 120px;
       }
 
     .main {
       width: 75%;
     }
 
-      .gallery .work{
+      .gallery .work {
         width: 152px;
         height: 152px;
         border: 1px solid rgba(0, 0, 0, 0.3);
+        margin: 0 auto;
       }
 
         .gallery .work:hover {
@@ -489,23 +483,23 @@ input[type="submit"] {
 }
 @media only screen and (max-width: 35em) {
   .container {
-    width: 95%;
-    padding: 0 2%;
     margin: 0 auto;
+    padding: 0 2%;
+    width: 95%;
   }
 
     header {
-      width: 100%;
-      padding: 5px 0 0 0;
-      float: none;
       position: static;
+      float: none;
+      padding: 5px 0 0 0;
+      width: 100%;
     }
 
       .logo {
-        background: #EC0647 url(../images/logo.png) no-repeat 20px 50px;
         margin: 1em auto;
         width: 200px;
         height: 200px;
+        background: #EC0647 url(../images/logo.png) no-repeat 20px 50px;
         background-size: 173px;
       }
 
@@ -523,10 +517,10 @@ input[type="submit"] {
           }
 
       .main {
-        width: 100%;
+        float: none;
         margin: 0;
         padding: 20px 0 0 0;
-        float: none;
+        width: 100%;
       }
 
         .inside {
@@ -534,19 +528,19 @@ input[type="submit"] {
         }
 
             .gallery .work {
-              width: 200px;
-              height: 200px;
               display: block;
               margin: 1em auto;
+              width: 200px;
+              height: 200px;
               background: dimGrey url(../images/Cross_bg.png) 0 0 repeat;
               -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
                       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
             }
 
             .columns {
-              -webkit-column-count: 1;  -webkit-column-gap: 0px;
-                 -moz-column-count: 1;     -moz-column-gap: 0px;
-                      column-count: 1;          column-gap: 0px;
+              -webkit-column-count: 1;
+                 -moz-column-count: 1;
+                      column-count: 1;  -webkit-column-gap: 0px;     -moz-column-gap: 0px;          column-gap: 0px;
             }
 
             .vcard.photo {
@@ -554,4 +548,5 @@ input[type="submit"] {
               margin: 0;
             }
 
+}
 }
