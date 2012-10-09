@@ -129,6 +129,15 @@ h6 {
     margin: 2.33em 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "minion-pro", Georgia, "Times New Roman", serif;
+}
+
 p { 
   margin: 1em 0; 
 }
@@ -188,7 +197,7 @@ input[type="submit"] {
  * Regular styles
  */
   body { 
-    font-family: "adelle", Georgia, "Times New Roman", serif;
+    font-family: "brandon-grotesque", arial, sans-serif;
     font-size: 1.2em;
     color: #444;
     text-shadow: 0px 1px 0px #fff;
@@ -280,6 +289,7 @@ input[type="submit"] {
 
         .jumbotron {
           font-size: 1.5em;
+          font-family: "minion-pro", Georgia, "Times New Roman", serif;
         }
 
         .sub {
