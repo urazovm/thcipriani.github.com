@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: Using .htaccess to remove Codeigniter's index.php file
+title: Using .htaccess to remove Codeigniter&#8217;s index.php file
 ---
 
 Quick post today. I was just finishing up a codeigniter project and saw an error in the docs
