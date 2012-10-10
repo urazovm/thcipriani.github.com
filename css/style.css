@@ -443,7 +443,7 @@ input[type="submit"] {
   100%   { background-color: #EC0647; }
 }
 
-@media only screen and (max-width: 56em) {
+@media only screen and (max-width: 820px) {
   .container {
     margin: 0 auto;
     padding: 0 2%;
@@ -466,10 +466,17 @@ input[type="submit"] {
       width: 75%;
     }
 
+      .inside {
+        padding: 0 5px 20px;
+      }
+
+        .gallery .row {
+          margin-left: -3%;
+        }
+
       .gallery .work {
-        margin: 0 auto;
-        width: 152px;
-        height: 152px;
+        margin: 5px 3%;
+        width: 33%;
         border: 1px solid rgba(0, 0, 0, 0.3);
       }
 
@@ -484,7 +491,7 @@ input[type="submit"] {
 
 
 }
-@media only screen and (max-width: 35em) {
+@media only screen and (max-width: 480px) {
   .container {
     margin: 0 auto;
     padding: 0 2%;
