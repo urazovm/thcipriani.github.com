@@ -307,8 +307,9 @@ input[type="submit"] {
         }
 
           .jumbotron .headline {
+            margin: 0;
             font-size: 5em;
-            line-height: .1em;
+            line-height: 1.31em;
           }
 
         .sub {
@@ -487,8 +488,8 @@ input[type="submit"] {
     }
 
       .logo {
-        width: 100%;
         max-width: 140px;
+        width: 100%;
         height: 140px;
         background: #EC0647 url(../images/logo.png) no-repeat 13px 37px;
         background-size: 120px;
@@ -546,9 +547,9 @@ input[type="submit"] {
 
       .logo {
         margin: 1em auto;
+        max-width: 200px;
         width: 200px;
         height: 200px;
-        max-width: 200px;
         background: #EC0647 url(../images/logo.png) no-repeat 20px 50px;
         background-size: 173px;
       }
