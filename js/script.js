@@ -25,5 +25,5 @@ var TylerCipriani = function() {
 
 $(function(){
   TylerCipriani.navScroll();
-  $('.headline').fitText(5);
+  $('.headline').fitText(1.5);
 });
