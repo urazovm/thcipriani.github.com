@@ -281,6 +281,10 @@ input[type="submit"] {
           font-size: 1.5em;
         }
 
+          .jumbotron .headline {
+            font-size: 5em;
+          }
+
         .sub {
           margin: 1em auto 3em;
           border: 1px solid #d9d9d9;
