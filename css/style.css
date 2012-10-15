@@ -272,7 +272,8 @@ input[type="submit"] {
         }
 
         nav {
-          text-align: center;
+          text-align: left;
+          margin-left: 1em;
         }
 
           nav .nav {
