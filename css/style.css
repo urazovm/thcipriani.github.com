@@ -151,8 +151,8 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: 1.25em;
   font-weight: normal;
+  line-height: 1.25em;
 }
 
 p { 
@@ -272,8 +272,8 @@ input[type="submit"] {
         }
 
         nav {
-          text-align: left;
           margin-left: 1em;
+          text-align: left;
         }
 
           nav .nav {
@@ -458,6 +458,7 @@ input[type="submit"] {
         background: #5D5D5D;
         background: rgba(0, 0, 0, 0.3);
         color: white;
+        text-shadow: 0 0 0 #000;
       }
 
 
