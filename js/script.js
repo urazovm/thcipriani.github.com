@@ -8,7 +8,7 @@ var TylerCipriani = function() {
       var $anchor = $(this),
           target = $anchor.attr('href');
 
-      if (target !== '/hireme/' && target !== '/blog/') {
+      if (window.location.pathname === '/' && target !== '/hireme/' && target !== '/blog/') {
         e.preventDefault();
    
         $('html, body').stop().animate({
