@@ -275,6 +275,26 @@ input[type="submit"] {
             line-height: 1.25em;
           }
 
+            .jumbotron .headline span {
+              letter-spacing: -1px;
+              position: relative;
+              display: inline-block;
+              color: #fc6;
+            }
+
+            .jumbotron .headline .char2, 
+            .jumbotron .headline .char4, 
+            .jumbotron .headline .char6 {
+              color: #FFD685;
+              -webkit-transform: rotate(2deg);
+              margin: -8px;
+            }
+
+            .jumbotron .headline .char3 { 
+              -webkit-transform: rotate(-10deg);
+              top: 25px;
+            } 
+
         .sub {
           margin: 1em auto 3em;
           border: 1px solid #d9d9d9;
