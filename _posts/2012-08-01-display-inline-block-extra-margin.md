@@ -30,7 +30,7 @@ This problem could be easily solved by removing the display property, floating e
 That solution, however, ignores <em>why</em> that space is being added.
 
 The inline-block display property treats block level elements 
-(e.g. &lt;div&gt;) as an inline element (e.g. &lt;span&gt;) <em>&amp;</em>,
+(e.g. &lt;div&gt;) as an inline element (e.g. &lt;span&gt;) <span class="amp">&amp;</span>,
 just like if you had a line break between two &lt;span&gt; elements, the 
 line-break between the &lt;div&gt;s is creating a space between the &lt;div&gt;s.
 **That extra margin is actually a space&#8212;not a margin**.
