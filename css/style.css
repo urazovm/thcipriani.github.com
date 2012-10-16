@@ -24,19 +24,11 @@
 }
 
 /*
- * Better Best Available Ampersand
+ * Best available ampersand
  */
-@font-face {
-    font-family: 'Ampersand';
-    src: local('Baskerville'), local('Palatino'), local('Book Antiqua'), local('Georgia'), local('Times New Roman');
-    unicode-range: U+26;
-}
-
-@font-face {
-    /* Ampersand fallback font */
-    font-family: 'Ampersand';
-    src: local('Arial');
-    unicode-range: U+270C;
+.amp {
+  font-size:125%;
+  font-style:italic;
 }
 
 /*
@@ -115,36 +107,6 @@ table {
   border-collapse: collapse; 
 }
 
-h1 {
-  margin: 0.67em 0;
-  font-size: 2em;
-}
-
-h2 {
-  margin: 0.83em 0;
-  font-size: 1.5em;
-}
-
-h3 {
-    margin: 1em 0;
-    font-size: 1.17em;
-}
-
-h4 {
-    margin: 1.33em 0;
-    font-size: 1em;
-}
-
-h5 {
-    margin: 1.67em 0;
-    font-size: 0.83em;
-}
-
-h6 {
-    margin: 2.33em 0;
-    font-size: 0.75em;
-}
-
 h1,
 h2,
 h3,
@@ -168,6 +130,7 @@ img {
 
 textarea {
   max-width: 100%;
+  width: 100%;
 }
 
 hr {
@@ -216,12 +179,9 @@ input[type="submit"] {
 
   body {
     background: #ececec url(../images/cross_bg1.png) 0 0 repeat fixed;
-    /* background: #f8f8f8 url(../images/bg_combo.jpg) top left repeat fixed; */
     color: #444;
     text-shadow: 0px 1px 0px #fff;
-    font: normal normal 1.4em/1.3em Ampersand, "ltc-bodoni-175", Georgia, "Times New Roman", serif;
-    /* *background: url(../images/Cross_bg.png) top left repeat fixed, 
-     *url(../images/bg.jpg) top left repeat fixed #f8f8f8; */
+    font: normal normal 1.5em/1.5em "ltc-bodoni-175", Georgia, "Times New Roman", serif;
   }
 
     .container {
@@ -240,7 +200,7 @@ input[type="submit"] {
       }
 
         .logo {
-          margin: 1em auto;
+          margin: 0.5em auto;
           width: 200px;
           height: 200px;
           -webkit-border-radius: 100px;
@@ -307,12 +267,13 @@ input[type="submit"] {
 
         .jumbotron {
           font-size: 1.5em;
+          line-height: 1.25em;
         }
 
           .jumbotron .headline {
             margin: 0;
             font-size: 5em;
-            line-height: 1.31em;
+            line-height: 1.25em;
           }
 
         .sub {
