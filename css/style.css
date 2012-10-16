@@ -241,15 +241,19 @@ input[type="submit"] {
             line-height: 1.4em;
           }
 
-            .nav a {
-              color: #666;
-              text-decoration: none;
-              -webkit-transition: all 0.3s linear; 
-                 -moz-transition: all 0.3s linear; 
-                  -ms-transition: all 0.3s linear; 
-                   -o-transition: all 0.3s linear; 
-                      transition: all 0.3s linear;
+            .nav li {
+              border-bottom: 1px solid #ccc;
             }
+
+              .nav a {
+                color: #666;
+                text-decoration: none;
+                -webkit-transition: all 0.3s linear; 
+                   -moz-transition: all 0.3s linear; 
+                    -ms-transition: all 0.3s linear; 
+                     -o-transition: all 0.3s linear; 
+                        transition: all 0.3s linear;
+              }
 
               .nav a:hover {
                 color: black;
