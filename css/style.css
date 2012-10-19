@@ -352,6 +352,12 @@ input[type="submit"] {
             padding: 0 20px 20px;
           }
 
+            .headline {
+              font-size: 2em;
+              line-height: 1.5em;
+              margin: 32px 0;
+            }
+
             .gallery {
               zoom: 1;
             }
