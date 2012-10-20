@@ -316,7 +316,7 @@ input[type="submit"] {
             .headline {
               font-size: 2em;
               line-height: 1.5em;
-              margin: 32px 0;
+              margin: .67em 0;
             }
 
             .gallery {
