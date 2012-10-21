@@ -27,5 +27,15 @@ probably totoally wrong about that :)
 <hr>
 
 <h2>Step One:</h2>
+<strong>RSync your site to your local development environment.</strong> 
 
-<strong>RSync your site to your local development environment</strong>. 
+In order to begin to develop locally (and break the old cowboy-coding habits
+that you&#8217;ve undoubtedly developed over the years) you need a local 
+copy of your site.
+
+ 1. Open your terminal emulator and <code>cd</code> to the direcotry in which
+    you will be storing these files (i.e. <code>cd /srv/www/tylercipriani.com/public_html</code>)
+ 2. Rsync the <code>htdocs</code> or <code>public_html</code> from your webserver
+    into this local directory
+
+*&#8212;I think it&#8217;s a crime that no one references Charles Mingus in git tutorials
