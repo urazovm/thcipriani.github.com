@@ -18,6 +18,7 @@ I&#8217;m making the assumption that you have the following:
  * A local development environment
  * <code>git-core</code> installed both locally and on your webserver
  * Keyless SSH access to your webserver
+ 
 I&#8217;m using Ubuntu 12.04 locally, but I&#8217;d assume that most of this 
-won&#8217;t be too different on a different distro or on Mac&#8212;I&&#8217;m 
+won&#8217;t be too different on a different distro or on Mac&#8212;I&#8217;m 
 probably totoally wrong about that :)
