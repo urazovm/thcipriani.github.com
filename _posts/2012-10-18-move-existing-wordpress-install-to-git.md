@@ -1,28 +1,23 @@
 ---
 layout: blog_post
-title: How I integrated git with our existing Wordpress site
+title: Integrating git with your existing site
 ---
+<h2>Better git it in your soul*</h2>
+Git has a lot of great tutorials for getting started. There are also a 
+number of great articles on how to use git and github for your workflow.
 
-Custom Channels has always had a soft-spot for Wordpress. And Custom Channels
-has always had a soft-spot for 
-[cowboy coding](http://www.bnj.com/cowboy-coding-pink-sombrero/). During the
-course of my employment I&#8717;ve used Vim to edit the live site while, 
-essentially, taking dictation from the higher-ups with no shame or fear. 
-That has since ended, and we&#8717;re all better people for it.
+What I haven&#8217;t seen is an article on how to integrate git with your 
+current site without storing any code on github. I&#8217;m writing this blog 
+to create a quick reference for how to get up and running using git on your 
+existing site.
 
-Git has enabled us to:
-1. **Be more creative**&#8212;when a typo is discovered, you want to fix it, 
-  but sometimes you&#8217;ve mangled the local-copy of that file with some 
-  cockamamie code that you can&#8717;t get quite working right. So to fix
-  the typo on the site you&#8717;ll either cowboy code it, or you&#8717;ll 
-  pull down a second local copy. **Stop this madness** with branches and merges
-  you can switch from your cockamamie branch, to your production branch, modify, 
-  push live without a second thought.
+<h2>Needed</h2>
 
-2. **Distribute the site easier**&#8212;I have a local copy of the git repo
-  that runs under a virtual host on my local apache install. There&#8717;s 
-  a copy on development box at work. If we ever have anyone else come in 
-  they can easily grab a copy with <code>git clone ssh://path</code>. 
-  Awesome!
-
-3. **Actually test stuff**&#8212;
+I&#8217;m making the assumption that you have the following:
+ * Knowledge of linux
+ * A local development environment
+ * <code>git-core</code> installed both locally and on your webserver
+ * Keyless SSH access to your webserver
+I&#8217;m using Ubuntu 12.04 locally, but I&#8217;d assume that most of this 
+won&#8217;t be too different on a different distro or on Mac&#8212;I&&#8217;m 
+probably totoally wrong about that :)
