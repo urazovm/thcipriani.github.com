@@ -27,8 +27,8 @@
  * Best available ampersand
  */
 .amp {
-  font-size:125%;
   font-style:italic;
+  font-size:125%;
 }
 
 /*
@@ -107,45 +107,6 @@ table {
   border-collapse: collapse; 
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 16px 0;
-  font-family: inherit;
-  font-weight: bold;
-  line-height: 1;
-  color: inherit;
-  text-rendering: optimizelegibility;
-}
-
-h1 {
-  font-size: 36px;
-  line-height: 40px;
-}
-
-h2 {
-  font-size: 30px;
-  line-height: 40px;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 40px;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-h5 {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-h6 {
-  font-size: 12px;
-  line-height: 20px;
-}
-
 p { 
   margin: 0 0 1em; 
 }
@@ -215,18 +176,18 @@ input[type="submit"] {
 
     .container {
       margin: 0 auto;
-      width: 88%;
       max-width: 1140px;
+      width: 88%;
     }
 
       header {
         z-index: -10;
         float: left;
         overflow: hidden;
+        margin: 0 5% 0 0;
         padding: 20px 0 0 0;
         min-height: 100%;
         width: 20%;
-        margin: 0 5% 0 0;
       }
 
         .logo {
@@ -273,8 +234,8 @@ input[type="submit"] {
           }
 
             .nav li {
-              border-bottom: 1px solid #ccc;
               margin: 0 0 1em;
+              border-bottom: 1px solid #ccc;
             }
 
               .nav a {
@@ -312,23 +273,23 @@ input[type="submit"] {
           }
 
             .jumbotron .headline span {
-              letter-spacing: -1px;
               position: relative;
               display: inline-block;
               color: #fc6;
+              letter-spacing: -1px;
             }
 
             .jumbotron .headline .char2, 
             .jumbotron .headline .char4, 
             .jumbotron .headline .char6 {
+              margin: -8px;
               color: #FFD685;
               -webkit-transform: rotate(2deg);
-              margin: -8px;
             }
 
-            .jumbotron .headline .char3 { 
+            .jumbotron .headline .char3 {
+              top: 25px; 
               -webkit-transform: rotate(-10deg);
-              top: 25px;
             } 
 
         .sub {
@@ -353,9 +314,9 @@ input[type="submit"] {
           }
 
             .headline {
+              margin: .67em 0;
               font-size: 2em;
               line-height: 1.5em;
-              margin: 32px 0;
             }
 
             .gallery {
@@ -381,11 +342,19 @@ input[type="submit"] {
               background: dimGrey url(../images/Cross_bg.png) 0 0 repeat;
               -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
                       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+              -webkit-transition: all 1s ease-out; 
+                 -moz-transition: all 1s ease-out; 
+                   -o-transition: all 1s ease-out; 
+                      transition: all 1s ease-out; 
             }
 
               .gallery .work a img {
                 width: 100%;
                 -webkit-filter: grayscale(100%);
+                -webkit-transition: all 1s ease-out; 
+                   -moz-transition: all 1s ease-out; 
+                     -o-transition: all 1s ease-out; 
+                        transition: all 1s ease-out; 
               }
 
                 .gallery .work a:hover img {
@@ -394,6 +363,8 @@ input[type="submit"] {
 
               .gallery .work:hover {
                 border: 3px solid tomato;
+                -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+                        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
               }
 
               .gallery:after {
@@ -511,10 +482,10 @@ input[type="submit"] {
   }
 
     header {
-      padding: 1% 0 0 0;
-      width: 100%;
       float: none;
       margin: 0 0 -128px 0;
+      padding: 1% 0 0 0;
+      width: 100%;
     }
 
       .logo-link {
@@ -525,21 +496,21 @@ input[type="submit"] {
 
       nav {
         float: left;
+        margin: 2em 0 0 0;
         width: 75%;
         border-bottom: 1px solid #ccc;
-        margin: 2em 0 0 0;
       }
 
         nav .nav {
+          text-align: center;
           font-size: 1em;
           margin-left`: -1%;
-          text-align: center;
         }
 
           .nav li {
             float: left;
-            width: 19%;
             margin-left: 1%;
+            width: 19%;
             border-bottom: 0;
           }
 
@@ -572,6 +543,10 @@ input[type="submit"] {
           border: 0;
         }
 
+          .gallery .work a img {
+            -webkit-filter: grayscale(0%);
+          }
+
       .vcard.photo {
         float: left;
         margin: 0 25px 0 25px;
@@ -594,112 +569,114 @@ input[type="submit"] {
     }
 
     nav .nav {
+      text-align: center;
       font-size: .85em;
       margin-left`: -1%;
-      text-align: center;
     }
 
   .main {
-    width: 95%;
     float: none;
     margin: 0 auto;
+    width: 95%;
   }
 
 }
 
 @media only screen and (max-width: 480px) {
-  .container {
-    margin: 0 auto;
-    padding: 0 2%;
-    width: 95%;
+  body {
+    font: normal normal 1em/1.5em "abril-text", Georgia, "Times New Roman", serif;
   }
-
-    header {
-      position: static;
-      float: none;
-      padding: 5px 0 0 0;
-      width: 100%;
-      margin: 0 0 -32px 0;
+    .container {
+      margin: 0 auto;
+      padding: 0 2%;
+      width: 95%;
     }
 
-      .logo-link {
+      header {
+        position: static;
         float: none;
+        margin: 0 0 -32px 0;
+        padding: 5px 0 0 0;
         width: 100%;
       }
 
-        .logo {
-          margin: 1em auto;
-          max-width: 200px;
-          width: 200px;
-          height: 200px;
-          background: #f66 url(../images/logo.png) no-repeat 20px 50px;
-          background-size: 173px;
+        .logo-link {
+          float: none;
+          width: 100%;
         }
 
-      nav {
-        text-align: center;
-        float: none;
-        width: 100%;
-        border-bottom: 0;
-      }
-
-        nav .nav {
-          padding: 0;
-          margin: 0;
-          font-size: 1.4em;
-        }
-
-          .nav li { 
-            float: none;
-            width: 100%;
-            margin-left: 0;
-            border-bottom: 1px solid rgb(204, 204, 204);
+          .logo {
+            margin: 1em auto;
+            max-width: 200px;
+            width: 200px;
+            height: 200px;
+            background: #f66 url(../images/logo.png) no-repeat 20px 50px;
+            background-size: 173px;
           }
 
-            .nav li a {
-              padding: 2%;
-            }
-
-      .main {
-        float: none;
-        margin: 0;
-        padding: 20px 0 0 0;
-        width: 100%;
-      }
-
-        .jumbotron .headline {
-          font-size: 3em;
+        nav {
+          float: none;
+          width: 100%;
+          border-bottom: 0;
+          text-align: center;
         }
 
-        .inside {
-          padding: 0 20px 20px;
-        }
-
-          .gallery .row {
+          nav .nav {
             margin: 0;
+            padding: 0;
+            font-size: 1.4em;
           }
 
-            .gallery .work {
+            .nav li { 
               float: none;
-              margin: 1em auto;
-              width: 200px;
-              height: 200px;
-              background: dimGrey url(../images/Cross_bg.png) 0 0 repeat;
-              -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
-                      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+              margin-left: 0;
+              width: 100%;
+              border-bottom: 1px solid rgb(204, 204, 204);
             }
 
-            .columns {
-              -webkit-column-count: 1;
-                 -moz-column-count: 1;
-                      column-count: 1;  -webkit-column-gap: 0px;     -moz-column-gap: 0px;          column-gap: 0px;
+              .nav li a {
+                padding: 2%;
+              }
+
+        .main {
+          float: none;
+          margin: 0;
+          padding: 20px 0 0 0;
+          width: 100%;
+        }
+
+          .jumbotron .headline {
+            font-size: 3em;
+          }
+
+          .inside {
+            padding: 0 20px 20px;
+          }
+
+            .gallery .row {
+              margin: 0;
             }
 
-            .vcard.photo {
-              float: none;
-              display: block;
-              margin: 0 auto;
-            }
+              .gallery .work {
+                float: none;
+                margin: 1em auto;
+                width: 200px;
+                height: 200px;
+                background: dimGrey url(../images/Cross_bg.png) 0 0 repeat;
+                -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+                        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+              }
 
-}
+              .columns {
+                -webkit-column-count: 1;
+                   -moz-column-count: 1;
+                        column-count: 1;  -webkit-column-gap: 0px;     -moz-column-gap: 0px;          column-gap: 0px;
+              }
+
+              .vcard.photo {
+                display: block;
+                float: none;
+                margin: 0 auto;
+              }
+
 }
