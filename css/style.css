@@ -315,6 +315,7 @@ input[type="submit"] {
 
             .headline {
               margin: .67em 0;
+              color: #212121;
               font-size: 2em;
               line-height: 1.5em;
             }
