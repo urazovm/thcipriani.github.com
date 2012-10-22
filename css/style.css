@@ -78,6 +78,12 @@ body {
   margin: 0;
 }
 
+a, 
+a:visited {
+  color: #08C;
+  text-decoration: none;
+}
+
 a:focus {
   outline: thin dotted;
 }
@@ -85,6 +91,11 @@ a:focus {
 a:hover,
 a:active {
   outline: 0;
+}
+
+a:hover {
+  color: #005580;
+  text-decoration: underline;
 }
 
 ol, ul {
