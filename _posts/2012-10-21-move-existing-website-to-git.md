@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title: How to integrate git with your current website
+title: Integrating git with your existing website
 ---
 <h2>Better git it in your soul<a href="http://www.youtube.com/watch?v=SPoK1lryfh4" target="_blank">*</a></h2>
 Git has a <a href="https://bitly.com/bundles/matthewmccullough/1" target="_blank">lot</a> 
