@@ -37,7 +37,7 @@ I&#8217;m probably totally wrong about that &#9786;
 <h2>Step One:</h2>
 <strong>RSync your site to your local development environment.</strong> 
 
-In order to begin to develop locally (and break the old cowboy-coding habits
+In order to begin to develop locally (and break the old <a href="http://www.bnj.com/cowboy-coding-pink-sombrero/" target="_blank">cowboy-coding</a> habits
 that you&#8217;ve undoubtedly developed over the years) you need a local 
 copy of your site.
 
@@ -121,7 +121,7 @@ local development environment.
 <strong>Push to your new repo, you beautiful command-line ninja you!</strong> 
 
 Back on your local machine, in the webroot of your local development environment, 
-add your bare web-server repo as your <code>remote</code> and push your git 
+add your bare webserver repo as your <code>remote</code> and push your git 
 repo up to your server. The post-receive hook will take care of the rest!
 
 <code class="codeBlock">
