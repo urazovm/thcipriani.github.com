@@ -118,7 +118,7 @@ local development environment.
 <hr>
 
 <h2>You&#8217;re Done!</h2>
-<strong>Push to your new repo, you beautiful command-line ninja you!</strong> 
+<strong>Push to your new repo, you beautiful command-line ninja, you!</strong> 
 
 Back on your local machine, in the webroot of your local development environment, 
 add your bare webserver repo as your <code>remote</code> and push your git 
