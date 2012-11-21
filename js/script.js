@@ -16,7 +16,7 @@ var TylerCipriani = function() {
         }, 1500,'swing');
       }
     });
-  }
+  };
 
   return {
     navScroll: navScroll 
