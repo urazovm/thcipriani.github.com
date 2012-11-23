@@ -47,7 +47,7 @@ copy of your site.
     into this local directory:
 
     <pre class="prettyprint">
-      rsync -av -e "ssh -p &lt;port&gt;" &lt;rsync-username&gt;@&lt;webserver&gt;:/path/to/htdocs/ .
+    rsync -av -e "ssh -p &lt;port&gt;" &lt;rsync-username&gt;@&lt;webserver&gt;:/path/to/htdocs/ .
     </pre>
 
     The command breaks down like this:
@@ -71,8 +71,8 @@ the code that you&#8217;ve rsynced in the previous step to that repo.
     your site and initialize a git repository by running <code>git init</code>
 
     <pre class="prettyprint">
-      cd /srv/www/tylercipriani.com/public_html/
-      git init
+    cd /srv/www/tylercipriani.com/public_html/
+    git init
     </pre>
  2. Add the contents of the current directory to the git repository by running 
     <code>git add .</code>
@@ -91,14 +91,14 @@ local development environment.
     the webroot (i.e. <code>htdocs</code>)
     
     <pre class="prettyprint">
-      mkdir tylercipriani.com.git &amp;&amp; cd tylercipriani.com.git
+    mkdir tylercipriani.com.git &amp;&amp; cd tylercipriani.com.git
     </pre>
 
  2. Once inside the new directory initialize a bare repository by using the 
     <code>--bare</code> flag:
 
     <pre class="prettyprint">
-      git init --bare
+    git init --bare
     </pre>
 
  3. Now we can define a new post-receive hook that will be triggered whenever 
@@ -108,8 +108,8 @@ local development environment.
     file called &#8220;post-receive&#8221;. Copy the code below into the file:
 
     <pre class="prettyprint">
-      #!/bin/bash
-      GIT_WORK_TREE=&lt;/path/to/your/htdocs/direcotry&gt; git checkout -f
+    #!/bin/bash
+    GIT_WORK_TREE=&lt;/path/to/your/htdocs/direcotry&gt; git checkout -f
     </pre>
 
     make sure that this code is executable by running 
@@ -125,8 +125,8 @@ add your bare webserver repo as your <code>remote</code> and push your git
 repo up to your server. The post-receive hook will take care of the rest!
 
 <pre class="prettyprint">
-  git remote add web ssh://user@tylercipriani.com/home/user/tylercipriani.com.git
-  git push -u origin master
+git remote add web ssh://user@tylercipriani.com/home/user/tylercipriani.com.git
+git push -u origin master
 </pre>
 
 By using the <code>-u</code> flag you&#8217;re setting the upstream which means 

@@ -728,7 +728,8 @@ pre.prettyprint {
   background-color: #002b36;
   text-shadow: none;
   overflow-x: auto;
-  padding: 0 1em 0 0;
+  padding: 1em;
+  line-height: 1.25em;
 }
 
 .prettyprint .pln {
