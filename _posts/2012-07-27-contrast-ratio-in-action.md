@@ -9,7 +9,7 @@ which I understand has created a bit of controversy.
 I think the point espoused by Contrast Rebellion is both well-made and 
 well-taken (despite the host of straw-man style arguments to the contrary); 
 however, I feel that&#8212;in _most_ designs&#8212;contrast arises fairly 
-organically. If I can&#8217;t read my font, or there isn&8217;t enough 
+organically. If I can&#8217;t read my font, or there isn&#8217;t enough 
 contrast in my color palate, then I know that the people from whom I 
 solicit opinions are going to mention that before saying anything else.
 
@@ -31,6 +31,9 @@ Alternately, you could skip the download and the hand-cranking of numbers
 and enter your hex codes into the 
 [Luminosity Colour Contrast Ratio Analyser](http://juicystudio.com/services/luminositycontrastratio.php, 'Luminosity Colour Contrast Ratio Analyser')
 
+**edit**#8212;11/23/2012
+My new favorite tool for contrast checking is [Lea Verou&#8217;s constrast checker](http://leaverou.github.com/contrast-ratio/)
+
 <hr>
 
 **Looking at popular websites contrast**
@@ -49,6 +52,11 @@ it&#8217;easy to read, contrast-wise anyway.
 * **Background color**: [#f8f8f8](http://www.colourlovers.com/color/F8F8F8)
 * **Contrast-ratio**: 9.17:1 
 * **Analysis**: Pretty amazing.
+
+**edit**#8212;11/23/2012
+You&#8217;re looking at Text color: [#8f8d80](http://www.colourlovers.com/color/8f8d80) 
+means that the contrast ratio is 3.1:1&#8212;which is meets the success cirterion 
+for the current text-size (which is, admittedly, very large)
 
 <hr>
 
