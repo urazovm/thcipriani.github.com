@@ -27,8 +27,9 @@
  * Best available ampersand
  */
 .amp {
-  font-style:italic;
-  font-size:125%;
+  font-family: Garamond, Baskerville, Palatino, "Book Antiqua", serif;
+  font-style: italic;
+  font-size: 125%;
 }
 
 /*
@@ -182,7 +183,7 @@ input[type="submit"] {
     background: #ececec url(../images/cross_bg1.png) 0 0 repeat fixed;
     color: #444;
     text-shadow: 0px 1px 0px #fff;
-    font: normal normal 1.5em/1.5em "ff-meta-serif-web-pro", Georgia, "Times New Roman", serif;
+    font: normal normal 1.5em/1.75em "abril-text", Georgia, "Times New Roman", serif;
     font-variant-ligatures: common-ligatures additionalligatures;
     -webkit-font-feature-settings: "liga", "dlig"; 
        -moz-font-feature-settings: "liga=1, dlig=1"; 
@@ -322,6 +323,11 @@ input[type="submit"] {
           -webkit-background-clip: padding-box;
         }
 
+          .sub p {
+            font-family: "proxima-nova", "Helvetica Nueue", Arial, sans-serif;
+            color: #8f8d80;
+          }
+
           .sub ul {
             list-style: disc;
           }
@@ -329,6 +335,10 @@ input[type="submit"] {
           .sub ol {
             list-style-type: decimal;
           }
+
+            .sub li {
+                font-family: "proxima-nova", "Helvetica Nueue", Arial, sans-serif;
+            }
 
           .inside {
             padding: 0 20px 20px;
