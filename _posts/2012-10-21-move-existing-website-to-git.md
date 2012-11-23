@@ -107,7 +107,7 @@ local development environment.
     <code>cd</code> into the <code>.git/hooks</code> directory and create a 
     file called &#8220;post-receive&#8221;. Copy the code below into the file:
 
-    <pre class="prettyprint linenums">
+    <pre class="prettyprint">
       #!/bin/bash
       GIT_WORK_TREE=&lt;/path/to/your/htdocs/direcotry&gt; git checkout -f
     </pre>
