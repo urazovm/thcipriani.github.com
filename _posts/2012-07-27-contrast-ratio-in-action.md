@@ -31,8 +31,9 @@ Alternately, you could skip the download and the hand-cranking of numbers
 and enter your hex codes into the 
 [Luminosity Colour Contrast Ratio Analyser](http://juicystudio.com/services/luminositycontrastratio.php, 'Luminosity Colour Contrast Ratio Analyser')
 
-**edit**#8212;11/23/2012
-My new favorite tool for contrast checking is [Lea Verou&#8217;s constrast checker](http://leaverou.github.com/contrast-ratio/)
+>**edit**&#8212;11/23/2012
+>
+>My new favorite tool for contrast checking is [Lea Verou&#8217;s constrast checker](http://leaverou.github.com/contrast-ratio/)
 
 <hr>
 
@@ -53,10 +54,12 @@ it&#8217;easy to read, contrast-wise anyway.
 * **Contrast-ratio**: 9.17:1 
 * **Analysis**: Pretty amazing.
 
-**edit**#8212;11/23/2012
-You&#8217;re looking at Text color: [#8f8d80](http://www.colourlovers.com/color/8f8d80) 
-means that the contrast ratio is 3.1:1&#8212;which is meets the success cirterion 
-for the current text-size (which is, admittedly, very large)
+>**edit**&#8212;11/23/2012
+>
+>You&#8217;re looking at Text color: [#8f8d80](http://www.colourlovers.com/color/8f8d80) 
+>which means that the contrast ratio here has dropped to 3.1:1&#8212;which 
+>meets the success cirterion for the current text-size of 24px! 
+>(which is, admittedly, very large, but whatever, I ain&#8217;t scared).
 
 <hr>
 
