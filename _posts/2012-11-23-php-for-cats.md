@@ -159,9 +159,9 @@ copy of your site.
  2. Rsync the <code>htdocs</code> or <code>public_html</code> from your webserver
     into this local directory:
 
-    <pre class="prettyprint">
-    rsync -av -e "ssh -p &lt;port&gt;" &lt;rsync-username&gt;@&lt;webserver&gt;:/path/to/htdocs/ .
-    </pre>
+{% highlight bash linenos %}
+$ rsync -av -e "ssh -p <port>" <rsync-username>@<webserver>:/path/to/htdocs/ .
+{% endhighlight %}
 
     The command breaks down like this:
      * &shy;<code>a</code> means &#8220;Archive&#8221;&#8212;keeps permissions, mtimes, etc the same
