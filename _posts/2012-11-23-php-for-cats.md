@@ -158,11 +158,9 @@ copy of your site.
     you will be storing these files (i.e. <code>cd /srv&shy;/www&shy;/tylercipriani.com&shy;/public_html</code>)
  2. Rsync the <code>htdocs</code> or <code>public_html</code> from your webserver
     into this local directory:
-
-{% highlight bash linenos %}
+    {% highlight bash %}
 $ rsync -av -e "ssh -p <port>" <rsync-username>@<webserver>:/path/to/htdocs/ .
 {% endhighlight %}
-
     The command breaks down like this:
      * &shy;<code>a</code> means &#8220;Archive&#8221;&#8212;keeps permissions, mtimes, etc the same
      * &shy;<code>v</code> means &#8220;Verbose&#8221;&#8212;increases verbosity of the command
