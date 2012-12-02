@@ -2,25 +2,25 @@
  * Out Icon
  */
 @font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'icon';
-	src: url('fonts/icon.eot');
-	src: url('fonts/icon.eot?#iefix') format('embedded-opentype'),
-		url('fonts/icon.svg#icon') format('svg'),
-		url('fonts/icon.woff') format('woff'),
-		url('fonts/icon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'icon';
+    src: url('fonts/icon.eot');
+    src: url('fonts/icon.eot?#iefix') format('embedded-opentype'),
+        url('fonts/icon.svg#icon') format('svg'),
+        url('fonts/icon.woff') format('woff'),
+        url('fonts/icon.ttf') format('truetype');
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
   margin: .25em 0 0 .25em;
-	font-style: normal;
-	font-family: 'icon';
-	speak: none;
+    font-style: normal;
+    font-family: 'icon';
+    speak: none;
 }
 
 .icon-out:before {
-	content: "\21";
+    content: "\21";
 }
 
 /*
@@ -775,12 +775,14 @@ pre.prettyprint {
 /* jekyll syntax */
 
 .highlight { 
-  padding: 7px 7px 7px 10px;
+  padding: 0 0.5em;
   margin: 20px 0 20px 0;
   background: #002B36;
   overflow-y: hidden;
   overflow-x: auto;
   color: #839496;
+  font-size: 0.8em;
+  line-height: 2em;
 }
 
 .highlight pre { margin: 0; }
@@ -789,17 +791,47 @@ pre.prettyprint {
   font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
   text-shadow: none;
 }
-.highlight .line-numbers {
-    text-align: right;
-    font-size: 13px;
-    line-height: 1.45em;
-    background: #073642;
-    border-right: 1px solid #00232C !important;
-    -webkit-box-shadow: #083E4B -1px 0 inset;
-    -moz-box-shadow: #083e4b -1px 0 inset;
-    box-shadow: #083E4B -1px 0 inset;
-    text-shadow: #021014 0 -1px;
-    padding: .8em !important;
+
+p code,
+li code {
+    display: inline-block;
+    line-height: 1.5em;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 8px;
+            border-radius: 8px;
+    padding: 2px 7px;
+    background: white;
+    font-size: 0.8em;
+    color: #555;
+       -moz-background-clip: padding; 
+    -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+}
+
+p .highlight code,
+li .highlight code {
+    display: inline;
+    line-height: 2em;
+    border: none;
+    -webkit-border-radius: 0;
+            border-radius: 0;
+    padding: 0;
+    background: #002b36;
+    font-size: 1em;
+    color: #93A1A1;
+       -moz-background-clip: none;
+    -webkit-background-clip: none;
+            background-clip: none;
+}
+
+
+
+.highlight .lineno {
+    display: inline-block;
+    background: #0b3944;
+    padding: 0 10px;
+    color: #34555e;
+    margin-left: -0.54em;
 }
 
 .highlist .line-numbers span { color: #586E75; }
