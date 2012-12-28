@@ -105,7 +105,7 @@ ol, ul {
 
 strong {
   font-weight: bold;
-  font-family: "proxima-nova", "Helvetica Nueue", Arial, sans-serif;
+  font-family: "proxima-nova-soft", "Helvetica Nueue", Arial, sans-serif;
 }
 
 blockquote {
@@ -325,7 +325,7 @@ input[type="submit"] {
         }
 
           .sub p {
-            font-family: "proxima-nova", "Helvetica Nueue", Arial, sans-serif;
+            font-family: "proxima-nova-soft", "Helvetica Nueue", Arial, sans-serif;
             color: #8f8d80;
           }
 
@@ -340,7 +340,7 @@ input[type="submit"] {
           }
 
             .sub li {
-              font-family: "proxima-nova", "Helvetica Nueue", Arial, sans-serif;
+              font-family: "proxima-nova-soft", "Helvetica Nueue", Arial, sans-serif;
             }
 
             .prettyprint li {
