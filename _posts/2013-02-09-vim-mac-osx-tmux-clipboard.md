@@ -18,7 +18,7 @@ I&#8217;m typing this on the beautiful back-lit keyboard of a brand-new, core-i7
 
 The first thing I did was get iTerm 2 up and running and then install Homebrew. After removing the dumb &#8220;Natural&#8221; scrolling and using PCKeyboard hack to remap some keys, I&#8217;m working exactly as I was before. I really can&#8217;t tell a difference. Which is a little anti-climactic for a computer that cost as much as my first car (oh, how I miss that purple Taurus!).
 
-It was really easy to everything setup as it was before, except&#8230;Vim&#8230;my clipboard&#8230;Tmux&#8230;they didn&#8217;t work together and that was CRIPPLING! Seriously, I depend on those things working together.
+It was really easy to get everything set up as it was before, except&#8230;Vim&#8230;my clipboard&#8230;Tmux&#8230;they didn&#8217;t work together and that was CRIPPLING! Seriously, I depend on those things working together.
 
 This post is written as a little reminder to myself of how I got it all up and running again.
 
