@@ -6,7 +6,7 @@ I've been an Ubuntu user for 4 years now. Since I started working at Upsync 3 mo
 
 While there are many tools for working on a website backend available in Ubuntu, few are as shiny as those available in OSX (Charles Proxy, usable in Chrome. I want that. I want it hard.). Also, want to do any iOS work? (you know I do)&mdash;then you <em>must</em> have a mac.
 
-On the flip side there is my natural inclination to be a bit of a contrarian and principals and such&#8230;
+On the flip side there is my natural inclination to be a bit of a contrarian and principles and such&#8230;
 
 ##&#8230;but it&#8217;s so shiny!
 
