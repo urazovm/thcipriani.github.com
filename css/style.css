@@ -501,23 +501,33 @@ input[type="submit"] {
           border-color: #14B9C7;
           border-radius: 8px;
           padding: 10px 15px;
-          text-shadow: 0 2px 0 rgb(11, 137, 148);
+          text-shadow: 0 2px 0 #0B8994;
           color: white;
           cursor: pointer;
           
-          -webkit-box-shadow: 0 3px 0 0 rgb(11, 137, 148);
+          -webkit-box-shadow: 0 3px 0 0 #0B8994;
                   
-          box-shadow: 0 3px 0 0 rgb(11, 137, 148);
+          box-shadow: 0 3px 0 0 #0B8994;
 
           background-color: #14B9C7;
           
-          background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #14B9C7), color-stop(100%, rgb(11, 137, 148)));
-          background-image: -webkit-linear-gradient(top, #14B9C7 0%, rgb(11, 137, 148) 100%);
-          background-image: -moz-linear-gradient(top, #14B9C7 0%, rgb(11, 137, 148) 100%);
-          background-image: -o-linear-gradient(top, #14B9C7 0%, rgb(11, 137, 148) 100%);
-          background-image: linear-gradient(to bottom, top, #14B9C7 0%, rgb(11, 137, 148) 100%);
+          background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #14B9C7), color-stop(100%, #0B8994));
+          background-image: -webkit-linear-gradient(top, #14B9C7 0%, #0B8994 100%);
+          background-image: -moz-linear-gradient(top, #14B9C7 0%, #0B8994 100%);
+          background-image: -o-linear-gradient(top, #14B9C7 0%, #0B8994 100%);
+          background-image: linear-gradient(to bottom, top, #14B9C7 0%, #0B8994 100%);
 
       }
+      
+          .ss-form-entry input[type="submit"]:hover {
+               background-color: #0B8994;
+               
+               background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0B8994), color-stop(100%, #14B9C7));
+               background-image: -webkit-linear-gradient(top, #0B8994 0%, #14B9C7 100%);
+               background-image: -moz-linear-gradient(top, #0B8994 0%, #14B9C7 100%);
+               background-image: -o-linear-gradient(top, #0B8994 0%, #14B9C7 100%);
+               background-image: linear-gradient(to bottom, top, #0B8994 0%, #14B9C7 100%);
+          }
           
           .ss-form-entry input[type="submit"]:active {
               -webkit-box-shadow: 0 0 0 0 white;
