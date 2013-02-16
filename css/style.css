@@ -469,6 +469,61 @@ input[type="submit"] {
             #dsq-footer {
               font-size: .5em;
             }
+            
+      .ss-form-entry input,
+      .ss-form-entry textarea {
+          border: 1px solid #ccc;
+          font-size: 1.2em;
+          padding: 5px 10px;
+          
+          -webkit-border-radius: 8px;
+                  border-radius: 8px;
+
+ 
+          -webkit-background-clip: padding-box; background-clip: padding-box;
+
+      }
+
+          
+          .ss-form-entry input:focus,
+          .ss-form-entry textarea:focus {
+              border-color: rgba(82, 168, 236, 0.8);
+              outline: 0;
+              outline: thin dotted 9;
+              -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+                 -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+                     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+
+          }
+
+      .ss-form-entry input[type="submit"] {
+          width: auto;
+          border-color: #14B9C7;
+          border-radius: 8px;
+          padding: 10px 15px;
+          text-shadow: 0 2px 0 rgb(11, 137, 148);
+          color: white;
+          cursor: pointer;
+          
+          -webkit-box-shadow: 0 3px 0 0 rgb(11, 137, 148);
+                  
+          box-shadow: 0 3px 0 0 rgb(11, 137, 148);
+
+          background-color: #14B9C7;
+          
+          background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #14B9C7), color-stop(100%, rgb(11, 137, 148)));
+          background-image: -webkit-linear-gradient(top, #14B9C7 0%, rgb(11, 137, 148) 100%);
+          background-image: -moz-linear-gradient(top, #14B9C7 0%, rgb(11, 137, 148) 100%);
+          background-image: -o-linear-gradient(top, #14B9C7 0%, rgb(11, 137, 148) 100%);
+          background-image: linear-gradient(to bottom, top, #14B9C7 0%, rgb(11, 137, 148) 100%);
+
+      }
+          
+          .ss-form-entry input[type="submit"]:active {
+              -webkit-box-shadow: 0 0 0 0 white;
+                      box-shadow: 0 0 0 0 white;
+          }
+
 
       footer {
         position: fixed;
