@@ -472,14 +472,14 @@ input[type="submit"] {
             
       .ss-form-entry input,
       .ss-form-entry textarea {
+          font-family: "proxima-nova-soft", "Helvetica Nueue", Arial, sans-serif;
           border: 1px solid #ccc;
           font-size: 1.2em;
           padding: 5px 10px;
-          
+
           -webkit-border-radius: 8px;
                   border-radius: 8px;
 
- 
           -webkit-background-clip: padding-box; background-clip: padding-box;
 
       }
