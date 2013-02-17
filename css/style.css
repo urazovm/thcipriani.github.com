@@ -73,6 +73,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   /* text-rendering: optimizeLegibility; */
+;
+  border-top: 5px solid #41B7D8;
 }
 
 body {
@@ -498,41 +500,45 @@ input[type="submit"] {
           }
 
       .ss-form-entry input[type="submit"] {
-          width: auto;
-          border-color: #14B9C7;
-          border-radius: 8px;
+          font-size: 1.2em;
+          border: 1px solid #12909B;
+          border-radius: 5px;
           padding: 10px 15px;
-          text-shadow: 0 2px 0 #0B8994;
           color: white;
           cursor: pointer;
           
-          -webkit-box-shadow: 0 3px 0 0 #0B8994;
-                  
-          box-shadow: 0 3px 0 0 #0B8994;
 
           background-color: #14B9C7;
           
-          background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #14B9C7), color-stop(100%, #0B8994));
-          background-image: -webkit-linear-gradient(top, #14B9C7 0%, #0B8994 100%);
-          background-image: -moz-linear-gradient(top, #14B9C7 0%, #0B8994 100%);
-          background-image: -o-linear-gradient(top, #14B9C7 0%, #0B8994 100%);
-          background-image: linear-gradient(to bottom, top, #14B9C7 0%, #0B8994 100%);
+          background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #14B9C7), color-stop(100%, #0B97A3));
+          background-image: -webkit-linear-gradient(top, #14B9C7 0%, #0B97A3 100%);
+          background-image: -moz-linear-gradient(top, #14B9C7 0%, #0B97A3 100%);
+          background-image: -o-linear-gradient(top, #14B9C7 0%, #0B97A3 100%);
+          background-image: linear-gradient(to bottom, top, #14B9C7 0%, #0B97A3 100%);
 
       }
       
           .ss-form-entry input[type="submit"]:hover {
                background-color: #0B8994;
                
-               background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0B8994), color-stop(100%, #14B9C7));
-               background-image: -webkit-linear-gradient(top, #0B8994 0%, #14B9C7 100%);
-               background-image: -moz-linear-gradient(top, #0B8994 0%, #14B9C7 100%);
-               background-image: -o-linear-gradient(top, #0B8994 0%, #14B9C7 100%);
-               background-image: linear-gradient(to bottom, top, #0B8994 0%, #14B9C7 100%);
+               background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0B97A3), color-stop(100%, #14B9C7));
+               background-image: -webkit-linear-gradient(top, #0B97A3 0%, #14B9C7 100%);
+               background-image: -moz-linear-gradient(top, #0B97A3 0%, #14B9C7 100%);
+               background-image: -o-linear-gradient(top, #0B97A3 0%, #14B9C7 100%);
+               background-image: linear-gradient(to bottom, top, #0B97A3 0%, #14B9C7 100%);
           }
           
           .ss-form-entry input[type="submit"]:active {
-              -webkit-box-shadow: 0 0 0 0 white;
-                      box-shadow: 0 0 0 0 white;
+                background-color: #F66;
+                border: 1px solid #bd4c4c;
+               
+               background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F66), color-stop(100%, #BD4C4C));
+               
+                background-image: -webkit-linear-gradient(top, #F66 0%, #BD4C4C 100%);
+               background-image: -moz-linear-gradient(top, #F66 0%, #BD4C4C 100%);
+               background-image: -o-linear-gradient(top, #F66 0%, #BD4C4C 100%);
+               background-image: linear-gradient(to bottom, top, #F66 0%, #BD4C4C 100%);
+
           }
 
 
