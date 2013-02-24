@@ -41,7 +41,9 @@ $ ./configure --prefix=/usr --with-compiledby="Tyler the Compiler" --with-featur
 
 ## make && make install
 
-Srsly, that&#8217;s it&#8212; <code>make && make install</code>.
+Srsly, that&#8217;s it&#8212;
+
+<code>make && make install</code>.
 
 Congrats! You&#8217;re one bad mother Vim compiler. 
 
