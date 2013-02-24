@@ -43,7 +43,9 @@ $ ./configure --prefix=/usr --with-compiledby="Tyler the Compiler" --with-featur
 
 Srsly, that&#8217;s it&#8212;
 
-<code>make && make install</code>.
+{% highlight bash linenos %}
+make && make install
+{% endhighlight %}
 
 Congrats! You&#8217;re one bad mother Vim compiler. 
 
